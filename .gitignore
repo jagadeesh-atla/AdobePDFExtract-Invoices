@@ -2,6 +2,9 @@
 private.key
 pdfservices-api-credentials.json
 
+#Zip Oututs
+*.zip
+
 # Logs
 logs
 *.log
