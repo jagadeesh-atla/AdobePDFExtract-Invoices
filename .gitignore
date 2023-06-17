@@ -1,3 +1,7 @@
+#Adobe Credentials
+private.key
+pdfservices-api-credentials.json
+
 # Logs
 logs
 *.log
