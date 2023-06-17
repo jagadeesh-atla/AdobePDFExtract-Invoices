@@ -1,0 +1,31 @@
+{
+  "name": "adobepdfextract-invoices",
+  "version": "1.0.0",
+  "description": "Extracting data from invoices using Adobe PDF Extract API",
+  "main": "src/index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "test/index.js",
+    "run": "src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jagadeesh-atla/AdobePDFExtract-Invoices.git"
+  },
+  "keywords": [
+    "pdf",
+    "extract",
+    "adobe",
+    "PapyrusNebulae",
+    "2023",
+    "hackathon"
+  ],
+  "author": "Jagadeesh Kumar Reddy Atla",
+  "license": "ISC",
+  "dependencies": {
+    "@adobe/pdfservices-node-sdk": "^3.3.0",
+    "adm-zip": "^0.5.10"
+  }
+}
