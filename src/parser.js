@@ -1,7 +1,16 @@
-const CustomerBox = [81, 485, 122, 577];
-const DeatilsBox = [240, 501, 405, 577];
+// Bounding boxs of customer details and Invoice description
+const [CustomerBox, DeatilsBox] = [
+  [81, 485, 122, 577],
+  [240, 501, 405, 577],
+];
 
-const findObjectsWithinBox = function (data = {}, box = []) {
+/**
+ * Finds objects within a given bounding box.
+ * @param {Array} data - Array of objects with 'Bounds' property.
+ * @param {Array} box - Bounding box coordinates [xMin, yMin, xMax, yMax].
+ * @returns {Array} - Array of objects within the bounding box.
+ */
+const findObjectsWithinBox = function (data = [], box = []) {
   const objectsWithinBox = [];
   for (const obj of data) {
     if (obj.Bounds != null || obj.Bounds != undefined) {
@@ -30,9 +39,11 @@ const findObjectsWithinBox = function (data = {}, box = []) {
   return objectsWithinBox;
 };
 
-// console.log(findObjectsWithinBox(data, CustomerBox));
-// console.log(findObjectsWithinBox(data, DeatilsBox));
-
+/**
+ * Extracts the text from an array of objects.
+ * @param {Array} data - Array of objects with 'Text' property.
+ * @returns {string} - Concatenated text from the objects.
+ */
 function findObjectstext(data = []) {
   let result = "";
   for (const ele of data) {
@@ -44,17 +55,58 @@ function findObjectstext(data = []) {
   return result;
 }
 
-function quoteField(field) {
+/**
+ * Quotes a field if it contains special characters (comma or double quote).
+ * @param {string} field - Field value to be quoted if necessary.
+ * @returns {string} - Quoted or unquoted field value.
+ */
+function quoteField(field = "") {
   if (field.includes(",") || field.includes('"')) {
-    // Field contains comma or double quotes, so enclose it within double quotes and escape any existing double quotes
     return `"${field.replace(/"/g, '""')}"`;
   } else {
-    // Field doesn't contain comma or double quotes, so return it as is
     return field;
   }
 }
 
-const getItems = function (data) {
+/**
+ * Extracts the bill details from an array of data.
+ * @param {Array} data - Array of data containing bill details.
+ * @returns {Array} - Array of bill details objects.
+ */
+const extractBill = function (data = []) {
+  if (data[0] == "" || data[0] == " ") {
+    data.shift();
+  }
+
+  const name = [],
+    quantity = [],
+    rate = [];
+
+  for (i = 0; i < data.length - 4; i += 4) {
+    name.push(data[i].trim());
+    quantity.push(data[i + 1].trim());
+    rate.push(data[i + 2].trim());
+  }
+
+  const result = [];
+
+  for (i = 0; i < name.length; i++) {
+    result.push({
+      Invoice_BillDetails_Name: name[i],
+      Invoice_BillDetails_Quantity: quantity[i],
+      Invoice_BillDetails_Rate: rate[i],
+    });
+  }
+
+  return result;
+};
+
+/**
+ * Parses the data array and extracts invoice information.
+ * @param {Array} data - Array of data containing invoice information.
+ * @returns {Array} - Array of objects containing invoice details.
+ */
+const getItems = function (data = []) {
   const arr = [];
   data.forEach((ele) => {
     if (ele.Text != undefined) {
@@ -64,6 +116,14 @@ const getItems = function (data) {
 
   let dataString = arr.join("+");
 
+  /**
+   * Cuts a portion of a string based on start and end indices, removes any "+" characters, and returns the cut portion.
+   * @param {string} str - The string that needs to be cut and saved.
+   * @param {number} start - The starting index of the substring to be cut from the original string.
+   * @param {number} end - The ending index position (exclusive) in the string where the cutting should stop.
+   * @returns {string} - The cut portion of the string from the start index to the end index, with any "+" characters removed and leading/trailing whitespace trimmed.
+   */
+
   function cutAndSave(str, start, end) {
     const cut = str.substring(start, end).split("+").join("").trim();
     dataString = str.substring(end).trim();
@@ -71,7 +131,6 @@ const getItems = function (data) {
   }
 
   const Bussiness_Name = cutAndSave(dataString, 0, 18);
-  // console.log(Bussiness_Name);
 
   dataString = dataString.replace(Bussiness_Name, "");
 
@@ -80,37 +139,30 @@ const getItems = function (data) {
     1,
     dataString.indexOf(",")
   );
-  // console.log(Bussiness_StreetAddress);
 
   const Bussiness_City = quoteField(
     cutAndSave(dataString, 1, dataString.indexOf(",", 2))
   );
-  // console.log(Bussiness_City);
 
   const Bussiness_Country = quoteField(
     cutAndSave(dataString, 2, dataString.indexOf("USA") + 3)
   );
-  // console.log(Bussiness_Country);
 
   const Bussiness_Zipcode = cutAndSave(dataString, 1, 6);
-  // console.log(Bussiness_Zipcode);
 
   const Invoice_Number = cutAndSave(
     dataString,
     dataString.indexOf("#") + 2,
     dataString.indexOf("Issue")
   );
-  // console.log(Invoice_Number);
 
   const Invoice_IssueDate = cutAndSave(dataString, 10, 23);
-  // console.log(Invoice_IssueDate);
 
   const Bussiness_Description = cutAndSave(
     dataString,
     0,
     dataString.indexOf("BILL")
   );
-  // console.log(Bussiness_Description);
 
   let text = findObjectstext(findObjectsWithinBox(data, CustomerBox)).trim();
 
@@ -149,10 +201,8 @@ const getItems = function (data) {
   const date_regex = /\d{2}-\d{2}-\d{4}/;
   const Invoice_DueDate = dataString.match(date_regex)[0];
   dataString = dataString.replace(Invoice_DueDate, "");
-  // console.log(Invoice_DueDate);
 
   const Invoice_Tax = "10";
-  // console.log(Invoice_Tax);
 
   const lastIndex = dataString.lastIndexOf("$");
   const secondToLastIndex = dataString.lastIndexOf("$", lastIndex - 1);
@@ -161,34 +211,12 @@ const getItems = function (data) {
     .substring(dataString.indexOf("AMOUNT") + 8, secondToLastIndex)
     .split("+");
 
-  const extractBill = function (data = []) {
-    if (data[0] == "" || data[0] == " ") {
-      data.shift();
-    }
-
-    const name = [],
-      quantity = [],
-      rate = [];
-
-    for (i = 0; i < data.length - 4; i += 4) {
-      name.push(data[i].trim());
-      quantity.push(data[i + 1].trim());
-      rate.push(data[i + 2].trim());
-    }
-
-    const result = [];
-
-    for (i = 0; i < name.length; i++) {
-      result.push({
-        Invoice_BillDetails_Name: name[i],
-        Invoice_BillDetails_Quantity: quantity[i],
-        Invoice_BillDetails_Rate: rate[i],
-      });
-    }
-
-    return result;
-  };
-
+  /**
+   * The function extracts details from a bill and combines them with business, customer, and invoice
+   * details to create an array of objects.
+   * @returns an array of objects, where each object contains information about a bill, including
+   * details about the business, customer, invoice, and items.
+   */
   function extractAll() {
     const bussiness = {
       Bussiness_City,
@@ -232,7 +260,5 @@ const getItems = function (data) {
 
   return extractAll();
 };
-
-// getItems(data);
 
 module.exports = { getItems };

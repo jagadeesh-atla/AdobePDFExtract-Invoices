@@ -1,6 +1,7 @@
-console.time("TIME src/index.js : ");
-console.log(new Date(), "\n\n");
+console.time("TIME src/index.js"); // Start the timer
+console.log(new Date(), "\n"); // Log the current date and time
 
+// Importing various modules and functions that are required for the script to run.
 const { getItems } = require("./parser");
 const { Item, header } = require("./class");
 const { extract } = require("./extractor");
@@ -13,6 +14,11 @@ const outputFolder = "./extractedData";
 
 let counter = 0;
 
+/**
+ * Returns a formatted number with leading zeros and increments the counter.
+ * @param {number} [numberOf=2] - The length of the formatted number.
+ * @returns {string} - The formatted number with leading zeros.
+ */
 function getNextFormattedNumber(numberOf = 2) {
   const formattedNumber = counter.toString().padStart(numberOf, "0");
   counter++;
@@ -20,36 +26,36 @@ function getNextFormattedNumber(numberOf = 2) {
 }
 
 const files = readdirSync(inputFolder);
-console.log(files);
 
-// Initial setup, create credentials instance.
 const credentials =
   PDFServicesSdk.Credentials.serviceAccountCredentialsBuilder()
     .fromFile("pdfservices-api-credentials.json")
     .build();
 
-// Setting Configuration for Connection and Read Timeouts
 const clientConfig = PDFServicesSdk.ClientConfig.clientConfigBuilder()
   .withConnectTimeout(15000)
   .withReadTimeout(15000)
   .build();
 
-// Create an ExecutionContext using credentials
 const clientContext = PDFServicesSdk.ExecutionContext.create(
   credentials,
   clientConfig
 );
 
-// Build extractPDF options
-const options =
+const extractPdfOptions =
   new PDFServicesSdk.ExtractPDF.options.ExtractPdfOptions.Builder()
     .addElementsToExtract(
       PDFServicesSdk.ExtractPDF.options.ExtractElementType.TEXT
     )
     .build();
 
+/**
+ * Processes a list of files by extracting data from them and saving the extracted data as JSON and CSV files.
+ * @param {string[]} files - An array of file names to be processed.
+ */
 async function processFiles(files) {
   const csvFilename = "./output/Extractedinvoices.csv";
+
   if (existsSync(csvFilename)) unlinkSync(csvFilename);
 
   header.saveAsCSV(csvFilename);
@@ -59,9 +65,10 @@ async function processFiles(files) {
       const num = getNextFormattedNumber();
       const filename = join(inputFolder, file);
       const outputfile = join(outputFolder, `output${num}.json`);
+
       const { elements } = await extract(
         clientContext,
-        options,
+        extractPdfOptions,
         filename,
         outputfile,
         join("./", `/zips/requested${num}.zip`)
@@ -78,8 +85,8 @@ async function processFiles(files) {
     }
   }
 
-  console.timeEnd("TIME src/index.js : ");
-  console.log(new Date(), "\n\n");
+  console.timeEnd("TIME src/index.js"); // Stop the timer and log the elapsed time
+  console.log(new Date(), "\n"); // Log the current date and time
 }
 
 processFiles(files);

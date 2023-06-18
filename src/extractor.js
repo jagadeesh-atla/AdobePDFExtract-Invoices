@@ -2,6 +2,16 @@ const AdmZip = require("adm-zip");
 const { existsSync, unlinkSync, writeFileSync } = require("fs");
 const PDFServicesSdk = require("@adobe/pdfservices-node-sdk");
 
+/**
+ * Extracts text information from a PDF file and saves it as a JSON file.
+ * @param {object} clientContext - The client context object containing credentials and configuration
+ * for the Adobe PDF Services API.
+ * @param {object} options - Options for the PDF extraction operation.
+ * @param {string} inputfile - Path to the input PDF file.
+ * @param {string} outputfile - Path and filename for the output JSON file.
+ * @param {string} [OUTPUT_ZIP=ExtractTextInfoFromPDF.zip] - Name of the output ZIP file (optional).
+ * @returns {object} - Extracted data from the PDF file in JSON format.
+ */
 async function extract(
   clientContext,
   options,

@@ -12,6 +12,11 @@ const outputFolder = "./test/extractedData";
 
 let counter = 0;
 
+/**
+ * Returns a formatted number with leading zeros and increments the counter.
+ * @param {number} [numberOf=2] - The length of the formatted number.
+ * @returns {string} - The formatted number with leading zeros.
+ */
 function getNextFormattedNumber(numberOf = 2) {
   const formattedNumber = counter.toString().padStart(numberOf, "0");
   counter++;
@@ -21,32 +26,32 @@ function getNextFormattedNumber(numberOf = 2) {
 const files = readdirSync(inputFolder);
 console.log(files);
 
-// Initial setup, create credentials instance.
 const credentials =
   PDFServicesSdk.Credentials.serviceAccountCredentialsBuilder()
     .fromFile("pdfservices-api-credentials.json")
     .build();
 
-// Setting Configuration for Connection and Read Timeouts
 const clientConfig = PDFServicesSdk.ClientConfig.clientConfigBuilder()
   .withConnectTimeout(15000)
   .withReadTimeout(15000)
   .build();
 
-// Create an ExecutionContext using credentials
 const clientContext = PDFServicesSdk.ExecutionContext.create(
   credentials,
   clientConfig
 );
 
-// Build extractPDF options
-const options =
+const extractPdfOptions =
   new PDFServicesSdk.ExtractPDF.options.ExtractPdfOptions.Builder()
     .addElementsToExtract(
       PDFServicesSdk.ExtractPDF.options.ExtractElementType.TEXT
     )
     .build();
 
+/**
+ * Processes a list of files by extracting data from them and saving the extracted data as JSON and CSV files.
+ * @param {string[]} files - An array of file names to be processed.
+ */
 async function processFiles(files) {
   const csvFilename = "./test/output/Extractedinvoices.csv";
   if (existsSync(csvFilename)) unlinkSync(csvFilename);
@@ -60,7 +65,7 @@ async function processFiles(files) {
       const outputfile = join(outputFolder, `output${num}.json`);
       const { elements } = await extract(
         clientContext,
-        options,
+        extractPdfOptions,
         filename,
         outputfile,
         join("./test", `/zips/requested${num}.zip`)

@@ -1,5 +1,6 @@
 const { appendFileSync } = require("fs");
 
+/* The class defines an Item object with properties and methods to save the object as a CSV file. */
 class Item {
   constructor(data) {
     this.Bussiness_City = data.Bussiness_City;
