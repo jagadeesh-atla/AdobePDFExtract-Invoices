@@ -1,4 +1,5 @@
-console.time("src/index.js");
+console.time("TIME src/index.js : ");
+console.log(new Date(), "\n\n");
 
 const { getItems } = require("./parser");
 const { Item, header } = require("./class");
@@ -76,7 +77,9 @@ async function processFiles(files) {
       console.error("Error processing file:", error);
     }
   }
-  console.timeEnd("src/index.js");
+
+  console.timeEnd("TIME src/index.js : ");
+  console.log(new Date(), "\n\n");
 }
 
 processFiles(files);

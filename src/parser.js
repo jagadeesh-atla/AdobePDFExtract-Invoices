@@ -1,7 +1,7 @@
-const CustomerBox = [81, 501, 202, 577];
+const CustomerBox = [81, 485, 122, 577];
 const DeatilsBox = [240, 501, 405, 577];
 
-const findObjectionsWithinBox = function (data = {}, box = []) {
+const findObjectsWithinBox = function (data = {}, box = []) {
   const objectsWithinBox = [];
   for (const obj of data) {
     if (obj.Bounds != null || obj.Bounds != undefined) {
@@ -30,8 +30,8 @@ const findObjectionsWithinBox = function (data = {}, box = []) {
   return objectsWithinBox;
 };
 
-// console.log(findObjectionsWithinBox(data, CustomerBox));
-// console.log(findObjectionsWithinBox(data, DeatilsBox));
+// console.log(findObjectsWithinBox(data, CustomerBox));
+// console.log(findObjectsWithinBox(data, DeatilsBox));
 
 function findObjectstext(data = []) {
   let result = "";
@@ -112,7 +112,9 @@ const getItems = function (data) {
   );
   // console.log(Bussiness_Description);
 
-  let text = findObjectstext(findObjectionsWithinBox(data, CustomerBox));
+  let text = findObjectstext(findObjectsWithinBox(data, CustomerBox)).trim();
+
+  if (text.includes("BILL TO")) text = text.replace("BILL TO", "").trim();
 
   const fullNameRegex = /^[A-Za-z]+\s+[A-Za-z]+/;
   const Customer_Name = text.match(fullNameRegex)[0].trim();
@@ -128,6 +130,7 @@ const getItems = function (data) {
   const Customer_PhoneNumber = text.match(phoneRegex)[0];
 
   text = text.substring(text.indexOf("-") + 9).trim();
+
   const idx = text.indexOf("Total");
   if (idx != -1) text = text.substring(0, idx).trim();
 
@@ -135,7 +138,9 @@ const getItems = function (data) {
   const Customer_Address_line1 = words.slice(0, 3).join(" ");
   const Customer_Address_line2 = words.slice(3).join(" ");
 
-  let line = findObjectstext(findObjectionsWithinBox(data, DeatilsBox)).trim();
+  let line = findObjectstext(findObjectsWithinBox(data, DeatilsBox)).trim();
+
+  if (line.includes("DETAILS")) line = line.replace("DETAILS", "").trim();
 
   if (line.indexOf("Total") != -1)
     line = line.substring(0, line.indexOf("Total")).trim();
