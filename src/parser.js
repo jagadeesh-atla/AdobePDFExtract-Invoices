@@ -1,25 +1,3 @@
-const extractTextHelper = function (data, path, path2 = "/") {
-  const result = [];
-  data.forEach((element) => {
-    if (element.Path.includes(path) && element.Text != undefined) {
-      if (element.Path.includes(path2)) result.push(element.Text.trim());
-    }
-  });
-  return result;
-};
-
-const extractBillDetailsHelper = function (data) {
-  const name = extractTextHelper(data, "/Sect/Table[3]/TR", "TD/P"),
-    quantity = extractTextHelper(data, "/Sect/Table[3]/TR", "TD[2]/P"),
-    rate = extractTextHelper(data, "/Sect/Table[3]/TR", "TD[3]/P");
-
-  return {
-    name,
-    quantity,
-    rate,
-  };
-};
-
 function quoteField(field) {
   if (field.includes(",") || field.includes('"')) {
     // Field contains comma or double quotes, so enclose it within double quotes and escape any existing double quotes
@@ -30,142 +8,188 @@ function quoteField(field) {
   }
 }
 
-const extractBussinessDetails = function (data) {
-  const [Bussiness_StreetAddress, Bussiness_City, t] = extractTextHelper(
-    data,
-    "/Sect/P[2]/Sub"
-  )[0]
-    .split(",")
-    .map((el) => el.trim());
-
-  const Bussiness_Country = quoteField(
-    extractTextHelper(data, "/Sect/P[2]/Sub[2]")[0].trim()
-  );
-
-  const Bussiness_Description = extractTextHelper(data, "/Sect/P[4]")[0].trim();
-  const Bussiness_Name = extractTextHelper(data, "/Sect/P")[0].trim();
-
-  const Bussiness_Zipcode = extractTextHelper(
-    data,
-    "/Sect/P[2]/Sub[3]"
-  )[0].trim();
-
-  return {
-    Bussiness_City,
-    Bussiness_Country,
-    Bussiness_Description,
-    Bussiness_Name,
-    Bussiness_StreetAddress,
-    Bussiness_Zipcode,
-  };
-};
-
-// console.log(extractBussinessDetails(data));
-
-const extractCustomerDetails = function (data) {
-  const details = extractTextHelper(data, "/Sect/P[6]");
-  let Customer_Address_line1,
-    Customer_Address_line2,
-    Customer_Email = details[1],
-    Customer_PhoneNumber,
-    Customer_Name = details[0];
-
-  if (details.length === 6) {
-    Customer_Email += details[2];
-    Customer_PhoneNumber = details[3];
-    Customer_Address_line1 = details[4];
-    Customer_Address_line2 = details[5];
-  } else if (details.length === 5) {
-    Customer_PhoneNumber = details[2];
-    Customer_Address_line1 = details[3];
-    Customer_Address_line2 = details[4];
-  }
-
-  return {
-    Customer_Address_line1,
-    Customer_Address_line2,
-    Customer_Email,
-    Customer_Name,
-    Customer_PhoneNumber,
-  };
-};
-
-// console.log(extractCustomerDetails(data));
-
-const extractInvoiceDetails = function (data) {
-  const Invoice_Description = extractTextHelper(
-    data,
-    "/Sect/Table/TR",
-    "/TD/P"
-  ).join(" ");
-
-  const Invoice_DueDate = extractTextHelper(data, "/Sect/P[9]")[0]
-    .split(":")[1]
-    .trim();
-
-  const Invoice_IssueDate = extractTextHelper(
-    data,
-    "/Sect/P[3]/Sub[3]"
-  )[0].trim();
-
-  const Invoice_Number = extractTextHelper(data, "/Sect/P[3]/Sub")[0]
-    .split("#")[1]
-    .trim();
-
-  const Invoice_Tax = extractTextHelper(
-    data,
-    "/Sect/Table[4]/TR[2]/TD[2]/P"
-  )[0].trim();
-
-  return {
-    Invoice_Description,
-    Invoice_DueDate,
-    Invoice_IssueDate,
-    Invoice_Number,
-    Invoice_Tax,
-  };
-};
-
-// console.log(extractInvoiceDetails(data));
-
-const extractBillDetails = function (data) {
-  const { name, quantity, rate } = extractBillDetailsHelper(data);
-  const n = name.length;
-  const array = [];
-
-  for (i = 0; i < n; i++) {
-    array.push({
-      Invoice_BillDetails_Name: name[i],
-      Invoice_BillDetails_Quantity: quantity[i],
-      Invoice_BillDetails_Rate: rate[i],
-    });
-  }
-
-  return array;
-};
-
-// console.log(extractBillDetails(data));
-
-function getItems(data) {
-  const bussiness = extractBussinessDetails(data);
-  const customer = extractCustomerDetails(data);
-  const invoiceDetails = extractInvoiceDetails(data);
-  const items = extractBillDetails(data);
-
-  const each = [];
-
-  items.forEach((item) => {
-    each.push({
-      ...bussiness,
-      ...customer,
-      ...item,
-      ...invoiceDetails,
-    });
+const getItems = function (data) {
+  const arr = [];
+  data.forEach((ele) => {
+    if (ele.Text != undefined) {
+      arr.push(ele.Text);
+    }
   });
 
-  return each;
-}
+  let dataString = arr.join("+");
 
-// console.log(getItems(data));
+  function cutAndSave(str, start, end) {
+    const cut = str.substring(start, end).split("+").join("").trim();
+    dataString = str.substring(end).trim();
+    return cut;
+  }
+
+  const Bussiness_Name = cutAndSave(dataString, 0, 18);
+  // console.log(Bussiness_Name);
+
+  dataString = dataString.replace(Bussiness_Name, "");
+
+  const Bussiness_StreetAddress = cutAndSave(
+    dataString,
+    1,
+    dataString.indexOf(",")
+  );
+  // console.log(Bussiness_StreetAddress);
+
+  const Bussiness_City = quoteField(
+    cutAndSave(dataString, 1, dataString.indexOf(",", 2))
+  );
+  // console.log(Bussiness_City);
+
+  const Bussiness_Country = quoteField(
+    cutAndSave(dataString, 2, dataString.indexOf("USA") + 3)
+  );
+  // console.log(Bussiness_Country);
+
+  const Bussiness_Zipcode = cutAndSave(dataString, 1, 6);
+  // console.log(Bussiness_Zipcode);
+
+  const Invoice_Number = cutAndSave(
+    dataString,
+    dataString.indexOf("#") + 2,
+    dataString.indexOf("Issue")
+  );
+  // console.log(Invoice_Number);
+
+  const Invoice_IssueDate = cutAndSave(dataString, 10, 23);
+  // console.log(Invoice_IssueDate);
+
+  const Bussiness_Description = cutAndSave(
+    dataString,
+    0,
+    dataString.indexOf("BILL")
+  );
+  // console.log(Bussiness_Description);
+
+  dataString = dataString.replace("BILL TO +", "").trim();
+
+  const Customer_Name = cutAndSave(dataString, 0, dataString.indexOf("+"));
+  // console.log(Customer_Name);
+
+  const Customer_Email = cutAndSave(
+    dataString,
+    0,
+    dataString.indexOf("-") - 3
+  ).replace(" ", "");
+  // console.log(Customer_Email);
+
+  const Customer_PhoneNumber = cutAndSave(dataString, 0, 12);
+  // console.log(Customer_PhoneNumber);
+
+  const Customer_Address_line1 = cutAndSave(
+    dataString,
+    0,
+    dataString.indexOf("+", 2)
+  );
+  // console.log(Customer_Address_line1);
+
+  const Customer_Address_line2 = cutAndSave(
+    dataString,
+    0,
+    dataString.indexOf("+", 2)
+  );
+  // console.log(Customer_Address_line2);
+
+  const Invoice_Description = cutAndSave(
+    dataString,
+    8,
+    dataString.indexOf("PAYMENT")
+  );
+  // console.log(Invoice_Description);
+
+  const Invoice_DueDate = cutAndSave(
+    dataString,
+    dataString.indexOf(":") + 1,
+    dataString.indexOf(":") + 12
+  );
+  // console.log(Invoice_DueDate);
+
+  const Invoice_Tax = 10;
+  // console.log(Invoice_Tax);
+
+  const lastIndex = dataString.lastIndexOf("$");
+  const secondToLastIndex = dataString.lastIndexOf("$", lastIndex - 1);
+
+  const billDetails = dataString
+    .trim()
+    .substring(dataString.indexOf("AMOUNT") + 8, secondToLastIndex)
+    .split("+");
+
+  const extractBill = function (data = []) {
+    if (data[0] == "" || data[0] == " ") {
+      data.shift();
+    }
+
+    const name = [],
+      quantity = [],
+      rate = [];
+
+    for (i = 0; i < data.length - 4; i += 4) {
+      name.push(data[i].trim());
+      quantity.push(data[i + 1].trim());
+      rate.push(data[i + 2].trim());
+    }
+
+    const result = [];
+
+    for (i = 0; i < name.length; i++) {
+      result.push({
+        Invoice_BillDetails_Name: name[i],
+        Invoice_BillDetails_Quantity: quantity[i],
+        Invoice_BillDetails_Rate: rate[i],
+      });
+    }
+
+    return result;
+  };
+
+  function extractAll() {
+    const bussiness = {
+      Bussiness_City,
+      Bussiness_Country,
+      Bussiness_Description,
+      Bussiness_Name,
+      Bussiness_StreetAddress,
+      Bussiness_Zipcode,
+    };
+
+    const customer = {
+      Customer_Address_line1,
+      Customer_Address_line2,
+      Customer_Email,
+      Customer_Name,
+      Customer_PhoneNumber,
+    };
+    const invoiceDetails = {
+      Invoice_Description,
+      Invoice_DueDate,
+      Invoice_IssueDate,
+      Invoice_Number,
+      Invoice_Tax,
+    };
+
+    const items = extractBill(billDetails);
+
+    const each = [];
+
+    items.forEach((item) => {
+      each.push({
+        ...bussiness,
+        ...customer,
+        ...item,
+        ...invoiceDetails,
+      });
+    });
+
+    return each;
+  }
+
+  return extractAll();
+};
 
 module.exports = { getItems };

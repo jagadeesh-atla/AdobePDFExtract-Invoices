@@ -3,7 +3,7 @@ const { existsSync, unlinkSync, writeFileSync } = require("fs");
 const PDFServicesSdk = require("@adobe/pdfservices-node-sdk");
 
 async function extract(
-  executionContext,
+  clientContext,
   options,
   inputfile,
   outputfile,
@@ -20,7 +20,7 @@ async function extract(
     extractPDFOperation.setInput(input);
     extractPDFOperation.setOptions(options);
 
-    const result = await extractPDFOperation.execute(executionContext);
+    const result = await extractPDFOperation.execute(clientContext);
 
     //Remove if the output already exists.
     if (existsSync(OUTPUT_ZIP)) unlinkSync(OUTPUT_ZIP);

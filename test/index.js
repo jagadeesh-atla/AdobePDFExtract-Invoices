@@ -1,7 +1,7 @@
 const { getItems } = require("../src/parser.js");
 const { Item, header } = require("../src/class.js");
 const { extract } = require("../src/extractor.js");
-const { readdirSync } = require("fs");
+const { readdirSync, existsSync, unlinkSync } = require("fs");
 const PDFServicesSdk = require("@adobe/pdfservices-node-sdk");
 const { join } = require("path");
 
@@ -25,8 +25,17 @@ const credentials =
     .fromFile("pdfservices-api-credentials.json")
     .build();
 
+// Setting Configuration for Connection and Read Timeouts
+const clientConfig = PDFServicesSdk.ClientConfig.clientConfigBuilder()
+  .withConnectTimeout(15000)
+  .withReadTimeout(15000)
+  .build();
+
 // Create an ExecutionContext using credentials
-const executionContext = PDFServicesSdk.ExecutionContext.create(credentials);
+const clientContext = PDFServicesSdk.ExecutionContext.create(
+  credentials,
+  clientConfig
+);
 
 // Build extractPDF options
 const options =
@@ -38,6 +47,8 @@ const options =
 
 async function processFiles(files) {
   const csvFilename = "./test/output/Extractedinvoices.csv";
+  if (existsSync(csvFilename)) unlinkSync(csvFilename);
+
   header.saveAsCSV(csvFilename);
 
   for (const file of files) {
@@ -48,7 +59,7 @@ async function processFiles(files) {
         `output${getNextFormattedNumber(0)}.json`
       );
       const { elements } = await extract(
-        executionContext,
+        clientContext,
         options,
         filename,
         outputfile,

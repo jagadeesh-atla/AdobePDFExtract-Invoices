@@ -7,8 +7,8 @@
         "table_structure": "5"
     },
     "extended_metadata": {
-        "ID_instance": "F4 4F C4 14 42 B7 B2 11 0A 00 67 45 8B 6B C6 23 ",
-        "ID_permanent": "43 43 20 44 35 20 43 30 20 31 34 20 34 32 20 42 37 20 42 32 20 31 31 20 30 41 20 30 30 20 36 37 20 34 35 20 38 42 20 36 42 20 43 36 20 32 33 20 ",
+        "ID_instance": "19 16 3C 15 42 B7 B2 11 0A 00 67 45 8B 6B C6 23 ",
+        "ID_permanent": "33 41 20 44 44 20 33 38 20 31 35 20 34 32 20 42 37 20 42 32 20 31 31 20 30 41 20 30 30 20 36 37 20 34 35 20 38 42 20 36 42 20 43 36 20 32 33 20 ",
         "pdf_version": "1.6",
         "pdfa_compliance_level": "",
         "is_encrypted": false,
@@ -43,7 +43,7 @@
                 "font_type": "TrueType",
                 "italic": false,
                 "monospaced": false,
-                "name": "VBXRFH+Arial-BoldMT",
+                "name": "CSBIJO+Arial-BoldMT",
                 "subset": true,
                 "weight": 700
             },
@@ -57,13 +57,13 @@
         {
             "Bounds": [
                 76.72799682617188,
-                708.1132049560547,
+                721.1031951904297,
                 214.52447509765625,
                 730.5582427978516
             ],
             "ClipBounds": [
                 76.72799682617188,
-                708.1132049560547,
+                721.1031951904297,
                 214.52447509765625,
                 730.5582427978516
             ],
@@ -75,16 +75,52 @@
                 "font_type": "TrueType",
                 "italic": false,
                 "monospaced": false,
-                "name": "GCKFDL+ArialMT",
+                "name": "MPZLTU+ArialMT",
                 "subset": true,
                 "weight": 400
             },
             "HasClip": true,
-            "Lang": "en",
             "Page": 0,
-            "Path": "//Document/Sect/P[2]",
-            "Text": "3741 Glory Road, Jamestown, Tennessee, USA ",
-            "TextSize": 10.080001831054688
+            "Path": "//Document/Sect/P[2]/Sub",
+            "Text": "3741 Glory Road, Jamestown, ",
+            "TextSize": 10.080001831054688,
+            "attributes": {
+                "Placement": "Block"
+            }
+        },
+        {
+            "Bounds": [
+                76.72799682617188,
+                708.1132049560547,
+                155.30166625976562,
+                717.5682373046875
+            ],
+            "ClipBounds": [
+                76.72799682617188,
+                708.1132049560547,
+                155.30166625976562,
+                717.5682373046875
+            ],
+            "Font": {
+                "alt_family_name": "Arial",
+                "embedded": true,
+                "encoding": "WinAnsiEncoding",
+                "family_name": "Arial MT",
+                "font_type": "TrueType",
+                "italic": false,
+                "monospaced": false,
+                "name": "MPZLTU+ArialMT",
+                "subset": true,
+                "weight": 400
+            },
+            "HasClip": true,
+            "Page": 0,
+            "Path": "//Document/Sect/P[2]/Sub[2]",
+            "Text": "Tennessee, USA ",
+            "TextSize": 10.080001831054688,
+            "attributes": {
+                "Placement": "Block"
+            }
         },
         {
             "Bounds": [
@@ -107,7 +143,41 @@
                 "font_type": "TrueType",
                 "italic": false,
                 "monospaced": false,
-                "name": "GCKFDL+ArialMT",
+                "name": "MPZLTU+ArialMT",
+                "subset": true,
+                "weight": 400
+            },
+            "HasClip": true,
+            "Page": 0,
+            "Path": "//Document/Sect/P[2]/Sub[3]",
+            "Text": "38556 ",
+            "TextSize": 10.080001831054688,
+            "attributes": {
+                "Placement": "Block"
+            }
+        },
+        {
+            "Bounds": [
+                340.05999755859375,
+                694.7931976318359,
+                543.3080749511719,
+                730.5582427978516
+            ],
+            "ClipBounds": [
+                340.05999755859375,
+                694.7931976318359,
+                543.3080749511719,
+                730.5582427978516
+            ],
+            "Font": {
+                "alt_family_name": "Arial",
+                "embedded": true,
+                "encoding": "WinAnsiEncoding",
+                "family_name": "Arial MT",
+                "font_type": "TrueType",
+                "italic": false,
+                "monospaced": false,
+                "name": "MPZLTU+ArialMT",
                 "subset": true,
                 "weight": 400
             },
@@ -115,39 +185,7 @@
             "Lang": "en",
             "Page": 0,
             "Path": "//Document/Sect/P[3]",
-            "Text": "38556 ",
-            "TextSize": 10.080001831054688
-        },
-        {
-            "Bounds": [
-                337.1499938964844,
-                694.7931976318359,
-                543.3080749511719,
-                730.5582427978516
-            ],
-            "ClipBounds": [
-                337.1499938964844,
-                694.7931976318359,
-                543.3080749511719,
-                730.5582427978516
-            ],
-            "Font": {
-                "alt_family_name": "Arial",
-                "embedded": true,
-                "encoding": "WinAnsiEncoding",
-                "family_name": "Arial MT",
-                "font_type": "TrueType",
-                "italic": false,
-                "monospaced": false,
-                "name": "GCKFDL+ArialMT",
-                "subset": true,
-                "weight": 400
-            },
-            "HasClip": true,
-            "Lang": "en",
-            "Page": 0,
-            "Path": "//Document/Sect/P[4]",
-            "Text": "Invoice# TG67TS4201156943079376302586 Issue date 12-05-2023 ",
+            "Text": "Invoice# PL06549514582519367096003927 Issue date 12-05-2023 ",
             "TextSize": 10.080001831054688,
             "attributes": {
                 "LineHeight": 13.125,
@@ -175,7 +213,7 @@
                 "font_type": "TrueType",
                 "italic": false,
                 "monospaced": false,
-                "name": "GCKFDL+ArialMT",
+                "name": "MPZLTU+ArialMT",
                 "subset": true,
                 "weight": 400
             },
@@ -211,14 +249,14 @@
                 "font_type": "TrueType",
                 "italic": false,
                 "monospaced": false,
-                "name": "GCKFDL+ArialMT",
+                "name": "MPZLTU+ArialMT",
                 "subset": true,
                 "weight": 400
             },
             "HasClip": true,
             "Lang": "en",
             "Page": 0,
-            "Path": "//Document/Sect/P[5]",
+            "Path": "//Document/Sect/P[4]",
             "Text": "We are here to serve you better. Reach out to us in case of any concern or feedbacks. ",
             "TextSize": 10.080001831054688,
             "attributes": {
@@ -228,13 +266,249 @@
         {
             "Bounds": [
                 81.04800415039062,
-                501.7431945800781,
-                513.0480804443359,
+                580.9832000732422,
+                122.99087524414062,
                 590.438232421875
             ],
             "ClipBounds": [
                 81.04800415039062,
+                580.9832000732422,
+                122.99087524414062,
+                590.438232421875
+            ],
+            "Font": {
+                "alt_family_name": "Arial",
+                "embedded": true,
+                "encoding": "WinAnsiEncoding",
+                "family_name": "Arial",
+                "font_type": "TrueType",
+                "italic": false,
+                "monospaced": false,
+                "name": "CSBIJO+Arial-BoldMT",
+                "subset": true,
+                "weight": 700
+            },
+            "HasClip": true,
+            "Lang": "en",
+            "Page": 0,
+            "Path": "//Document/Sect/P[5]",
+            "Text": "BILL TO ",
+            "TextSize": 10.080001831054688
+        },
+        {
+            "Bounds": [
+                81.04800415039062,
+                567.6631927490234,
+                155.27711486816406,
+                577.1182403564453
+            ],
+            "ClipBounds": [
+                81.04800415039062,
+                567.6631927490234,
+                155.27711486816406,
+                577.1182403564453
+            ],
+            "Font": {
+                "alt_family_name": "Arial",
+                "embedded": true,
+                "encoding": "WinAnsiEncoding",
+                "family_name": "Arial MT",
+                "font_type": "TrueType",
+                "italic": false,
+                "monospaced": false,
+                "name": "MPZLTU+ArialMT",
+                "subset": true,
+                "weight": 400
+            },
+            "HasClip": true,
+            "Page": 0,
+            "Path": "//Document/Sect/P[6]/Sub",
+            "Text": "Garry Hegmann ",
+            "TextSize": 10.080001831054688,
+            "attributes": {
+                "Placement": "Block"
+            }
+        },
+        {
+            "Bounds": [
+                81.04800415039062,
+                554.6831970214844,
+                207.05807495117188,
+                564.1382446289062
+            ],
+            "ClipBounds": [
+                81.04800415039062,
+                554.6831970214844,
+                207.05807495117188,
+                564.1382446289062
+            ],
+            "Font": {
+                "alt_family_name": "Arial",
+                "embedded": true,
+                "encoding": "WinAnsiEncoding",
+                "family_name": "Arial MT",
+                "font_type": "TrueType",
+                "italic": false,
+                "monospaced": false,
+                "name": "MPZLTU+ArialMT",
+                "subset": true,
+                "weight": 400
+            },
+            "HasClip": true,
+            "Page": 0,
+            "Path": "//Document/Sect/P[6]/Sub[2]",
+            "Text": "Garry_Hegmann59@hotma ",
+            "TextSize": 10.080001831054688,
+            "attributes": {
+                "Placement": "Block"
+            }
+        },
+        {
+            "Bounds": [
+                81.04800415039062,
+                541.3632049560547,
+                110.21943664550781,
+                550.8182373046875
+            ],
+            "ClipBounds": [
+                81.04800415039062,
+                541.3632049560547,
+                110.21943664550781,
+                550.8182373046875
+            ],
+            "Font": {
+                "alt_family_name": "Arial",
+                "embedded": true,
+                "encoding": "WinAnsiEncoding",
+                "family_name": "Arial MT",
+                "font_type": "TrueType",
+                "italic": false,
+                "monospaced": false,
+                "name": "MPZLTU+ArialMT",
+                "subset": true,
+                "weight": 400
+            },
+            "HasClip": true,
+            "Page": 0,
+            "Path": "//Document/Sect/P[6]/Sub[3]",
+            "Text": "il.com ",
+            "TextSize": 10.080001831054688,
+            "attributes": {
+                "Placement": "Block"
+            }
+        },
+        {
+            "Bounds": [
+                81.04800415039062,
+                528.0431976318359,
+                146.34808349609375,
+                537.4982452392578
+            ],
+            "ClipBounds": [
+                81.04800415039062,
+                528.0431976318359,
+                146.34808349609375,
+                537.4982452392578
+            ],
+            "Font": {
+                "alt_family_name": "Arial",
+                "embedded": true,
+                "encoding": "WinAnsiEncoding",
+                "family_name": "Arial MT",
+                "font_type": "TrueType",
+                "italic": false,
+                "monospaced": false,
+                "name": "MPZLTU+ArialMT",
+                "subset": true,
+                "weight": 400
+            },
+            "HasClip": true,
+            "Page": 0,
+            "Path": "//Document/Sect/P[6]/Sub[4]",
+            "Text": "750-257-9345 ",
+            "TextSize": 10.080001831054688,
+            "attributes": {
+                "Placement": "Block"
+            }
+        },
+        {
+            "Bounds": [
+                81.04800415039062,
+                514.7232055664062,
+                161.7283172607422,
+                524.1782379150391
+            ],
+            "ClipBounds": [
+                81.04800415039062,
+                514.7232055664062,
+                161.7283172607422,
+                524.1782379150391
+            ],
+            "Font": {
+                "alt_family_name": "Arial",
+                "embedded": true,
+                "encoding": "WinAnsiEncoding",
+                "family_name": "Arial MT",
+                "font_type": "TrueType",
+                "italic": false,
+                "monospaced": false,
+                "name": "MPZLTU+ArialMT",
+                "subset": true,
+                "weight": 400
+            },
+            "HasClip": true,
+            "Page": 0,
+            "Path": "//Document/Sect/P[6]/Sub[5]",
+            "Text": "9874 Bayer Road ",
+            "TextSize": 10.080001831054688,
+            "attributes": {
+                "Placement": "Block"
+            }
+        },
+        {
+            "Bounds": [
+                81.04800415039062,
                 501.7431945800781,
+                121.08575439453125,
+                511.1982421875
+            ],
+            "ClipBounds": [
+                81.04800415039062,
+                501.7431945800781,
+                121.08575439453125,
+                511.1982421875
+            ],
+            "Font": {
+                "alt_family_name": "Arial",
+                "embedded": true,
+                "encoding": "WinAnsiEncoding",
+                "family_name": "Arial MT",
+                "font_type": "TrueType",
+                "italic": false,
+                "monospaced": false,
+                "name": "MPZLTU+ArialMT",
+                "subset": true,
+                "weight": 400
+            },
+            "HasClip": true,
+            "Page": 0,
+            "Path": "//Document/Sect/P[6]/Sub[6]",
+            "Text": "Le Hocq ",
+            "TextSize": 10.080001831054688,
+            "attributes": {
+                "Placement": "Block"
+            }
+        },
+        {
+            "Bounds": [
+                240.25999450683594,
+                514.7232055664062,
+                513.0480804443359,
+                590.438232421875
+            ],
+            "ClipBounds": [
+                240.25999450683594,
+                514.7232055664062,
                 513.0480804443359,
                 590.438232421875
             ],
@@ -242,58 +516,58 @@
             "Path": "//Document/Sect/Table",
             "attributes": {
                 "BBox": [
-                    80.99669999999969,
-                    503.89199999999255,
+                    240.22999999999593,
+                    514.6909999999916,
                     558.2169999999751,
                     588.9679999999935
                 ],
-                "NumCol": 3,
-                "NumRow": 2,
+                "NumCol": 2,
+                "NumRow": 3,
                 "Placement": "Block",
                 "SpaceAfter": 18
             }
         },
         {
             "Bounds": [
-                81.04800415039062,
+                240.25999450683594,
                 580.9832000732422,
-                122.99087524414062,
+                286.1240692138672,
                 590.438232421875
             ],
             "ClipBounds": [
-                81.04800415039062,
+                240.25999450683594,
                 580.9832000732422,
-                122.99087524414062,
+                286.1240692138672,
                 590.438232421875
             ],
             "Page": 0,
             "Path": "//Document/Sect/Table/TR/TH",
             "attributes": {
                 "BBox": [
-                    80.99669999999969,
-                    580.3289999999979,
-                    220.31099999999424,
+                    240.22999999999593,
+                    579.6089999999967,
+                    403.903999999995,
                     588.9679999999935
                 ],
                 "BlockAlign": "Before",
                 "ColIndex": 0,
-                "Height": 8.625,
+                "Height": 9.375,
                 "InlineAlign": "Start",
                 "RowIndex": 0,
-                "Width": 139.375
+                "Width": 163.625
             }
         },
         {
             "Bounds": [
-                81.04800415039062,
+                240.25999450683594,
                 580.9832000732422,
-                122.99087524414062,
+                286.1240692138672,
                 590.438232421875
             ],
             "ClipBounds": [
-                81.04800415039062,
+                240.25999450683594,
                 580.9832000732422,
-                122.99087524414062,
+                286.1240692138672,
                 590.438232421875
             ],
             "Font": {
@@ -304,7 +578,7 @@
                 "font_type": "TrueType",
                 "italic": false,
                 "monospaced": false,
-                "name": "VBXRFH+Arial-BoldMT",
+                "name": "CSBIJO+Arial-BoldMT",
                 "subset": true,
                 "weight": 700
             },
@@ -312,71 +586,6 @@
             "Lang": "en",
             "Page": 0,
             "Path": "//Document/Sect/Table/TR/TH/P",
-            "Text": "BILL TO ",
-            "TextSize": 10.080001831054688,
-            "attributes": {
-                "LineHeight": 12.125
-            }
-        },
-        {
-            "Bounds": [
-                240.25999450683594,
-                580.9832000732422,
-                286.1240692138672,
-                590.438232421875
-            ],
-            "ClipBounds": [
-                240.25999450683594,
-                580.9832000732422,
-                286.1240692138672,
-                590.438232421875
-            ],
-            "Page": 0,
-            "Path": "//Document/Sect/Table/TR/TH[2]",
-            "attributes": {
-                "BBox": [
-                    220.31099999999424,
-                    580.3289999999979,
-                    359.2649999999994,
-                    588.9679999999935
-                ],
-                "BlockAlign": "Before",
-                "ColIndex": 1,
-                "Height": 8.625,
-                "InlineAlign": "Start",
-                "RowIndex": 0,
-                "Width": 139
-            }
-        },
-        {
-            "Bounds": [
-                240.25999450683594,
-                580.9832000732422,
-                286.1240692138672,
-                590.438232421875
-            ],
-            "ClipBounds": [
-                240.25999450683594,
-                580.9832000732422,
-                286.1240692138672,
-                590.438232421875
-            ],
-            "Font": {
-                "alt_family_name": "Arial",
-                "embedded": true,
-                "encoding": "WinAnsiEncoding",
-                "family_name": "Arial",
-                "font_type": "TrueType",
-                "italic": false,
-                "monospaced": false,
-                "name": "VBXRFH+Arial-BoldMT",
-                "subset": true,
-                "weight": 700
-            },
-            "HasClip": true,
-            "Lang": "en",
-            "Page": 0,
-            "Path": "//Document/Sect/Table/TR/TH[2]/P",
             "Text": "DETAILS ",
             "TextSize": 10.080001831054688,
             "attributes": {
@@ -397,20 +606,20 @@
                 590.438232421875
             ],
             "Page": 0,
-            "Path": "//Document/Sect/Table/TR/TH[3]",
+            "Path": "//Document/Sect/Table/TR/TH[2]",
             "attributes": {
                 "BBox": [
-                    359.2649999999994,
-                    580.3289999999979,
+                    403.903999999995,
+                    579.6089999999967,
                     558.2169999999751,
                     588.9679999999935
                 ],
                 "BlockAlign": "Before",
-                "ColIndex": 2,
-                "Height": 8.625,
-                "InlineAlign": "Center",
+                "ColIndex": 1,
+                "Height": 9.375,
+                "InlineAlign": "Start",
                 "RowIndex": 0,
-                "Width": 199
+                "Width": 154.375
             }
         },
         {
@@ -434,14 +643,14 @@
                 "font_type": "TrueType",
                 "italic": false,
                 "monospaced": false,
-                "name": "VBXRFH+Arial-BoldMT",
+                "name": "CSBIJO+Arial-BoldMT",
                 "subset": true,
                 "weight": 700
             },
             "HasClip": true,
             "Lang": "en",
             "Page": 0,
-            "Path": "//Document/Sect/Table/TR/TH[3]/P",
+            "Path": "//Document/Sect/Table/TR/TH[2]/P",
             "Text": "PAYMENT ",
             "TextSize": 10.080001831054688,
             "attributes": {
@@ -450,279 +659,111 @@
         },
         {
             "Bounds": [
-                81.04800415039062,
-                501.7431945800781,
-                202.3607940673828,
+                240.25999450683594,
+                554.6831970214844,
+                359.3047180175781,
                 577.1182403564453
             ],
             "ClipBounds": [
-                81.04800415039062,
-                501.7431945800781,
-                202.3607940673828,
+                240.25999450683594,
+                554.6831970214844,
+                359.3047180175781,
                 577.1182403564453
             ],
             "Page": 0,
             "Path": "//Document/Sect/Table/TR[2]/TD",
             "attributes": {
                 "BBox": [
-                    80.99669999999969,
-                    503.89199999999255,
-                    220.31099999999424,
-                    580.3289999999979
+                    240.22999999999593,
+                    552.9699999999721,
+                    403.903999999995,
+                    579.6089999999967
                 ],
-                "BlockAlign": "After",
+                "BlockAlign": "Middle",
                 "ColIndex": 0,
-                "Height": 76.375,
+                "Height": 26.625,
                 "InlineAlign": "Start",
                 "RowIndex": 1,
-                "Width": 139.375
-            }
-        },
-        {
-            "Bounds": [
-                81.04800415039062,
-                567.6631927490234,
-                133.02047729492188,
-                577.1182403564453
-            ],
-            "ClipBounds": [
-                81.04800415039062,
-                567.6631927490234,
-                133.02047729492188,
-                577.1182403564453
-            ],
-            "Font": {
-                "alt_family_name": "Arial",
-                "embedded": true,
-                "encoding": "WinAnsiEncoding",
-                "family_name": "Arial MT",
-                "font_type": "TrueType",
-                "italic": false,
-                "monospaced": false,
-                "name": "GCKFDL+ArialMT",
-                "subset": true,
-                "weight": 400
-            },
-            "HasClip": true,
-            "Page": 0,
-            "Path": "//Document/Sect/Table/TR[2]/TD/P/Sub",
-            "Text": "Don Zulauf ",
-            "TextSize": 10.080001831054688,
-            "attributes": {
-                "Placement": "Block"
-            }
-        },
-        {
-            "Bounds": [
-                81.04800415039062,
-                554.6831970214844,
-                202.3607940673828,
-                564.1382446289062
-            ],
-            "ClipBounds": [
-                81.04800415039062,
-                554.6831970214844,
-                202.3607940673828,
-                564.1382446289062
-            ],
-            "Font": {
-                "alt_family_name": "Arial",
-                "embedded": true,
-                "encoding": "WinAnsiEncoding",
-                "family_name": "Arial MT",
-                "font_type": "TrueType",
-                "italic": false,
-                "monospaced": false,
-                "name": "GCKFDL+ArialMT",
-                "subset": true,
-                "weight": 400
-            },
-            "HasClip": true,
-            "Page": 0,
-            "Path": "//Document/Sect/Table/TR[2]/TD/P/Sub[2]",
-            "Text": "Don_Zulauf40@hotmail.co ",
-            "TextSize": 10.080001831054688,
-            "attributes": {
-                "Placement": "Block"
-            }
-        },
-        {
-            "Bounds": [
-                81.04800415039062,
-                541.3632049560547,
-                92.24681091308594,
-                550.8182373046875
-            ],
-            "ClipBounds": [
-                81.04800415039062,
-                541.3632049560547,
-                92.24681091308594,
-                550.8182373046875
-            ],
-            "Font": {
-                "alt_family_name": "Arial",
-                "embedded": true,
-                "encoding": "WinAnsiEncoding",
-                "family_name": "Arial MT",
-                "font_type": "TrueType",
-                "italic": false,
-                "monospaced": false,
-                "name": "GCKFDL+ArialMT",
-                "subset": true,
-                "weight": 400
-            },
-            "HasClip": true,
-            "Page": 0,
-            "Path": "//Document/Sect/Table/TR[2]/TD/P/Sub[3]",
-            "Text": "m ",
-            "TextSize": 10.080001831054688,
-            "attributes": {
-                "Placement": "Block"
-            }
-        },
-        {
-            "Bounds": [
-                81.04800415039062,
-                528.0431976318359,
-                146.34808349609375,
-                537.4982452392578
-            ],
-            "ClipBounds": [
-                81.04800415039062,
-                528.0431976318359,
-                146.34808349609375,
-                537.4982452392578
-            ],
-            "Font": {
-                "alt_family_name": "Arial",
-                "embedded": true,
-                "encoding": "WinAnsiEncoding",
-                "family_name": "Arial MT",
-                "font_type": "TrueType",
-                "italic": false,
-                "monospaced": false,
-                "name": "GCKFDL+ArialMT",
-                "subset": true,
-                "weight": 400
-            },
-            "HasClip": true,
-            "Page": 0,
-            "Path": "//Document/Sect/Table/TR[2]/TD/P/Sub[4]",
-            "Text": "110-825-4839 ",
-            "TextSize": 10.080001831054688,
-            "attributes": {
-                "Placement": "Block"
-            }
-        },
-        {
-            "Bounds": [
-                81.04800415039062,
-                514.7232055664062,
-                161.27464294433594,
-                524.1782379150391
-            ],
-            "ClipBounds": [
-                81.04800415039062,
-                514.7232055664062,
-                161.27464294433594,
-                524.1782379150391
-            ],
-            "Font": {
-                "alt_family_name": "Arial",
-                "embedded": true,
-                "encoding": "WinAnsiEncoding",
-                "family_name": "Arial MT",
-                "font_type": "TrueType",
-                "italic": false,
-                "monospaced": false,
-                "name": "GCKFDL+ArialMT",
-                "subset": true,
-                "weight": 400
-            },
-            "HasClip": true,
-            "Page": 0,
-            "Path": "//Document/Sect/Table/TR[2]/TD/P/Sub[5]",
-            "Text": "121 Jacobs River ",
-            "TextSize": 10.080001831054688,
-            "attributes": {
-                "Placement": "Block"
-            }
-        },
-        {
-            "Bounds": [
-                81.04800415039062,
-                501.7431945800781,
-                122.23239135742188,
-                511.1982421875
-            ],
-            "ClipBounds": [
-                81.04800415039062,
-                501.7431945800781,
-                122.23239135742188,
-                511.1982421875
-            ],
-            "Font": {
-                "alt_family_name": "Arial",
-                "embedded": true,
-                "encoding": "WinAnsiEncoding",
-                "family_name": "Arial MT",
-                "font_type": "TrueType",
-                "italic": false,
-                "monospaced": false,
-                "name": "GCKFDL+ArialMT",
-                "subset": true,
-                "weight": 400
-            },
-            "HasClip": true,
-            "Page": 0,
-            "Path": "//Document/Sect/Table/TR[2]/TD/P/Sub[6]",
-            "Text": "Port-Vila ",
-            "TextSize": 10.080001831054688,
-            "attributes": {
-                "Placement": "Block"
+                "Width": 163.625
             }
         },
         {
             "Bounds": [
                 240.25999450683594,
-                567.6631927490234,
-                275.5399169921875,
+                554.6831970214844,
+                359.3047180175781,
                 577.1182403564453
             ],
             "ClipBounds": [
                 240.25999450683594,
+                554.6831970214844,
+                359.3047180175781,
+                577.1182403564453
+            ],
+            "Font": {
+                "alt_family_name": "Arial",
+                "embedded": true,
+                "encoding": "WinAnsiEncoding",
+                "family_name": "Arial MT",
+                "font_type": "TrueType",
+                "italic": false,
+                "monospaced": false,
+                "name": "MPZLTU+ArialMT",
+                "subset": true,
+                "weight": 400
+            },
+            "HasClip": true,
+            "Lang": "it",
+            "Page": 0,
+            "Path": "//Document/Sect/Table/TR[2]/TD/P",
+            "Text": "cupidatat sit nulla laborum magna consectetur ipsum ",
+            "TextSize": 10.080001831054688,
+            "attributes": {
+                "LineHeight": 13,
+                "TextAlign": "Justify"
+            }
+        },
+        {
+            "Bounds": [
+                412.8000030517578,
                 567.6631927490234,
-                275.5399169921875,
+                513.0480804443359,
+                577.1182403564453
+            ],
+            "ClipBounds": [
+                412.8000030517578,
+                567.6631927490234,
+                513.0480804443359,
                 577.1182403564453
             ],
             "Page": 0,
             "Path": "//Document/Sect/Table/TR[2]/TD[2]",
             "attributes": {
                 "BBox": [
-                    220.31099999999424,
-                    503.89199999999255,
-                    359.2649999999994,
-                    580.3289999999979
+                    403.903999999995,
+                    552.9699999999721,
+                    558.2169999999751,
+                    579.6089999999967
                 ],
                 "BlockAlign": "Before",
                 "ColIndex": 1,
-                "Height": 76.375,
+                "Height": 26.625,
                 "InlineAlign": "Start",
                 "RowIndex": 1,
-                "Width": 139
+                "Width": 154.375
             }
         },
         {
             "Bounds": [
-                240.25999450683594,
+                412.8000030517578,
                 567.6631927490234,
-                275.5399169921875,
+                513.0480804443359,
                 577.1182403564453
             ],
             "ClipBounds": [
-                240.25999450683594,
+                412.8000030517578,
                 567.6631927490234,
-                275.5399169921875,
+                513.0480804443359,
                 577.1182403564453
             ],
             "Font": {
@@ -733,15 +774,15 @@
                 "font_type": "TrueType",
                 "italic": false,
                 "monospaced": false,
-                "name": "GCKFDL+ArialMT",
+                "name": "MPZLTU+ArialMT",
                 "subset": true,
                 "weight": 400
             },
             "HasClip": true,
-            "Lang": "en",
+            "Lang": "it",
             "Page": 0,
             "Path": "//Document/Sect/Table/TR[2]/TD[2]/P",
-            "Text": "veniam ",
+            "Text": "Due date: 14-06-2023 ",
             "TextSize": 10.080001831054688,
             "attributes": {
                 "LineHeight": 12.125
@@ -749,46 +790,46 @@
         },
         {
             "Bounds": [
-                410.63999938964844,
-                535.3764038085938,
-                513.0480804443359,
-                577.1182403564453
+                240.25999450683594,
+                514.7232055664062,
+                370.82615661621094,
+                550.8182373046875
             ],
             "ClipBounds": [
-                410.63999938964844,
-                535.3764038085938,
-                513.0480804443359,
-                577.1182403564453
+                240.25999450683594,
+                514.7232055664062,
+                370.82615661621094,
+                550.8182373046875
             ],
             "Page": 0,
-            "Path": "//Document/Sect/Table/TR[2]/TD[3]",
+            "Path": "//Document/Sect/Table/TR[3]/TD",
             "attributes": {
                 "BBox": [
-                    359.2649999999994,
-                    503.89199999999255,
-                    558.2169999999751,
-                    580.3289999999979
+                    240.22999999999593,
+                    514.6909999999916,
+                    403.903999999995,
+                    552.9699999999721
                 ],
                 "BlockAlign": "Before",
-                "ColIndex": 2,
-                "Height": 76.375,
+                "ColIndex": 0,
+                "Height": 38.25,
                 "InlineAlign": "Start",
-                "RowIndex": 1,
-                "Width": 199
+                "RowIndex": 2,
+                "Width": 163.625
             }
         },
         {
             "Bounds": [
-                412.8000030517578,
-                567.6631927490234,
-                513.0480804443359,
-                577.1182403564453
+                240.25999450683594,
+                514.7232055664062,
+                370.82615661621094,
+                550.8182373046875
             ],
             "ClipBounds": [
-                412.8000030517578,
-                567.6631927490234,
-                513.0480804443359,
-                577.1182403564453
+                240.25999450683594,
+                514.7232055664062,
+                370.82615661621094,
+                550.8182373046875
             ],
             "Font": {
                 "alt_family_name": "Arial",
@@ -798,18 +839,49 @@
                 "font_type": "TrueType",
                 "italic": false,
                 "monospaced": false,
-                "name": "GCKFDL+ArialMT",
+                "name": "MPZLTU+ArialMT",
                 "subset": true,
                 "weight": 400
             },
             "HasClip": true,
-            "Lang": "en",
+            "Lang": "it",
             "Page": 0,
-            "Path": "//Document/Sect/Table/TR[2]/TD[3]/P",
-            "Text": "Due date: 08-07-2023 ",
+            "Path": "//Document/Sect/Table/TR[3]/TD/P",
+            "Text": "minim mollit voluptate labore nulla nostrud non irure cillum dolore tempor id consectetur ",
             "TextSize": 10.080001831054688,
             "attributes": {
-                "LineHeight": 12.125
+                "LineHeight": 13.375,
+                "TextAlign": "Justify"
+            }
+        },
+        {
+            "Bounds": [
+                410.63999938964844,
+                535.3764038085938,
+                459.87107849121094,
+                545.844482421875
+            ],
+            "ClipBounds": [
+                410.63999938964844,
+                535.3764038085938,
+                459.87107849121094,
+                545.844482421875
+            ],
+            "Page": 0,
+            "Path": "//Document/Sect/Table/TR[3]/TD[2]",
+            "attributes": {
+                "BBox": [
+                    403.903999999995,
+                    514.6909999999916,
+                    558.2169999999751,
+                    552.9699999999721
+                ],
+                "BlockAlign": "Before",
+                "ColIndex": 1,
+                "Height": 38.25,
+                "InlineAlign": "Start",
+                "RowIndex": 2,
+                "Width": 154.375
             }
         },
         {
@@ -833,15 +905,15 @@
                 "font_type": "TrueType",
                 "italic": false,
                 "monospaced": false,
-                "name": "VBXRFH+Arial-BoldMT",
+                "name": "CSBIJO+Arial-BoldMT",
                 "subset": true,
                 "weight": 700
             },
             "HasClip": true,
-            "Lang": "en",
+            "Lang": "it",
             "Page": 0,
-            "Path": "//Document/Sect/Table/TR[2]/TD[3]/P[2]",
-            "Text": "$49432.9 ",
+            "Path": "//Document/Sect/Table/TR[3]/TD[2]/P",
+            "Text": "$39363.5 ",
             "TextSize": 11.160003662109375,
             "attributes": {
                 "LineHeight": 13.375
@@ -954,12 +1026,12 @@
                 "font_type": "TrueType",
                 "italic": false,
                 "monospaced": false,
-                "name": "VBXRFH+Arial-BoldMT",
+                "name": "CSBIJO+Arial-BoldMT",
                 "subset": true,
                 "weight": 700
             },
             "HasClip": true,
-            "Lang": "en",
+            "Lang": "it",
             "Page": 0,
             "Path": "//Document/Sect/Table[2]/TR/TD/P",
             "Text": "ITEM ",
@@ -1048,12 +1120,12 @@
                 "font_type": "TrueType",
                 "italic": false,
                 "monospaced": false,
-                "name": "VBXRFH+Arial-BoldMT",
+                "name": "CSBIJO+Arial-BoldMT",
                 "subset": true,
                 "weight": 700
             },
             "HasClip": true,
-            "Lang": "en",
+            "Lang": "it",
             "Page": 0,
             "Path": "//Document/Sect/Table[2]/TR/TD[2]/P",
             "Text": "QTY ",
@@ -1142,12 +1214,12 @@
                 "font_type": "TrueType",
                 "italic": false,
                 "monospaced": false,
-                "name": "VBXRFH+Arial-BoldMT",
+                "name": "CSBIJO+Arial-BoldMT",
                 "subset": true,
                 "weight": 700
             },
             "HasClip": true,
-            "Lang": "en",
+            "Lang": "it",
             "Page": 0,
             "Path": "//Document/Sect/Table[2]/TR/TD[3]/P",
             "Text": "RATE ",
@@ -1236,12 +1308,12 @@
                 "font_type": "TrueType",
                 "italic": false,
                 "monospaced": false,
-                "name": "VBXRFH+Arial-BoldMT",
+                "name": "CSBIJO+Arial-BoldMT",
                 "subset": true,
                 "weight": 700
             },
             "HasClip": true,
-            "Lang": "en",
+            "Lang": "it",
             "Page": 0,
             "Path": "//Document/Sect/Table[2]/TR/TD[4]/P",
             "Text": "AMOUNT ",
@@ -1253,14 +1325,14 @@
         {
             "Bounds": [
                 77.447998046875,
-                126.09320068359375,
-                523.4736785888672,
+                159.59320068359375,
+                517.7280731201172,
                 403.50823974609375
             ],
             "ClipBounds": [
                 77.447998046875,
-                126.09320068359375,
-                523.4736785888672,
+                159.59320068359375,
+                517.7280731201172,
                 403.50823974609375
             ],
             "Page": 0,
@@ -1268,12 +1340,12 @@
             "attributes": {
                 "BBox": [
                     71.5170999999973,
-                    108.74799999999959,
+                    142.34599999999773,
                     540.9379999999946,
                     411.97499999999127
                 ],
                 "NumCol": 4,
-                "NumRow": 9,
+                "NumRow": 8,
                 "Placement": "Block",
                 "SpaceAfter": 18
             }
@@ -1282,13 +1354,13 @@
             "Bounds": [
                 77.447998046875,
                 394.05320739746094,
-                171.16175842285156,
+                178.25807189941406,
                 403.50823974609375
             ],
             "ClipBounds": [
                 77.447998046875,
                 394.05320739746094,
-                171.16175842285156,
+                178.25807189941406,
                 403.50823974609375
             ],
             "Page": 0,
@@ -1296,11 +1368,11 @@
             "attributes": {
                 "BBox": [
                     71.5170999999973,
-                    376.33699999999953,
+                    377.7769999999873,
                     358.0649999999878,
                     411.97499999999127
                 ],
-                "BlockAlign": "Before",
+                "BlockAlign": "Middle",
                 "BorderColor": [
                     0,
                     0,
@@ -1314,7 +1386,7 @@
                     0.25
                 ],
                 "ColIndex": 0,
-                "Height": 35.625,
+                "Height": 34.25,
                 "InlineAlign": "Start",
                 "RowIndex": 0,
                 "Width": 286.375
@@ -1324,13 +1396,13 @@
             "Bounds": [
                 77.447998046875,
                 394.05320739746094,
-                171.16175842285156,
+                178.25807189941406,
                 403.50823974609375
             ],
             "ClipBounds": [
                 77.447998046875,
                 394.05320739746094,
-                171.16175842285156,
+                178.25807189941406,
                 403.50823974609375
             ],
             "Font": {
@@ -1341,7 +1413,7 @@
                 "font_type": "TrueType",
                 "italic": false,
                 "monospaced": false,
-                "name": "GCKFDL+ArialMT",
+                "name": "MPZLTU+ArialMT",
                 "subset": true,
                 "weight": 400
             },
@@ -1349,7 +1421,7 @@
             "Lang": "en",
             "Page": 0,
             "Path": "//Document/Sect/Table[3]/TR/TD/P",
-            "Text": "Awesome Fresh Hat ",
+            "Text": "Gorgeous Steel Salad ",
             "TextSize": 10.080001831054688,
             "attributes": {
                 "LineHeight": 12.125
@@ -1373,11 +1445,11 @@
             "attributes": {
                 "BBox": [
                     357.58499999999185,
-                    376.33699999999953,
+                    377.7769999999873,
                     414.22299999999814,
                     411.97499999999127
                 ],
-                "BlockAlign": "Before",
+                "BlockAlign": "Middle",
                 "BorderColor": [
                     0,
                     0,
@@ -1391,7 +1463,7 @@
                     0.25
                 ],
                 "ColIndex": 1,
-                "Height": 35.625,
+                "Height": 34.25,
                 "InlineAlign": "Start",
                 "RowIndex": 0,
                 "Width": 56.625
@@ -1418,15 +1490,15 @@
                 "font_type": "TrueType",
                 "italic": false,
                 "monospaced": false,
-                "name": "GCKFDL+ArialMT",
+                "name": "MPZLTU+ArialMT",
                 "subset": true,
                 "weight": 400
             },
             "HasClip": true,
-            "Lang": "en",
+            "Lang": "it",
             "Page": 0,
             "Path": "//Document/Sect/Table[3]/TR/TD[2]/P",
-            "Text": "28 ",
+            "Text": "24 ",
             "TextSize": 10.080001831054688,
             "attributes": {
                 "LineHeight": 12.125
@@ -1450,11 +1522,11 @@
             "attributes": {
                 "BBox": [
                     413.74299999998766,
-                    376.33699999999953,
+                    377.7769999999873,
                     481.8999999999942,
                     411.97499999999127
                 ],
-                "BlockAlign": "Before",
+                "BlockAlign": "Middle",
                 "BorderColor": [
                     0,
                     0,
@@ -1468,7 +1540,7 @@
                     0.25
                 ],
                 "ColIndex": 2,
-                "Height": 35.625,
+                "Height": 34.25,
                 "InlineAlign": "Start",
                 "RowIndex": 0,
                 "Width": 68.125
@@ -1495,15 +1567,15 @@
                 "font_type": "TrueType",
                 "italic": false,
                 "monospaced": false,
-                "name": "GCKFDL+ArialMT",
+                "name": "MPZLTU+ArialMT",
                 "subset": true,
                 "weight": 400
             },
             "HasClip": true,
-            "Lang": "en",
+            "Lang": "it",
             "Page": 0,
             "Path": "//Document/Sect/Table[3]/TR/TD[3]/P",
-            "Text": "60 ",
+            "Text": "45 ",
             "TextSize": 10.080001831054688,
             "attributes": {
                 "LineHeight": 12.125
@@ -1527,11 +1599,11 @@
             "attributes": {
                 "BBox": [
                     481.41999999999825,
-                    376.33699999999953,
+                    377.7769999999873,
                     541.417999999976,
                     411.97499999999127
                 ],
-                "BlockAlign": "Before",
+                "BlockAlign": "Middle",
                 "BorderColor": [
                     0,
                     0,
@@ -1545,7 +1617,7 @@
                     0.5
                 ],
                 "ColIndex": 3,
-                "Height": 35.625,
+                "Height": 34.25,
                 "InlineAlign": "Start",
                 "RowIndex": 0,
                 "Width": 60
@@ -1572,15 +1644,15 @@
                 "font_type": "TrueType",
                 "italic": false,
                 "monospaced": false,
-                "name": "GCKFDL+ArialMT",
+                "name": "MPZLTU+ArialMT",
                 "subset": true,
                 "weight": 400
             },
             "HasClip": true,
-            "Lang": "en",
+            "Lang": "it",
             "Page": 0,
             "Path": "//Document/Sect/Table[3]/TR/TD[4]/P",
-            "Text": "$1680 ",
+            "Text": "$1080 ",
             "TextSize": 10.080001831054688,
             "attributes": {
                 "LineHeight": 12.125
@@ -1590,13 +1662,13 @@
             "Bounds": [
                 77.447998046875,
                 360.5731964111328,
-                176.1412811279297,
+                186.8865509033203,
                 370.0282440185547
             ],
             "ClipBounds": [
                 77.447998046875,
                 360.5731964111328,
-                176.1412811279297,
+                186.8865509033203,
                 370.0282440185547
             ],
             "Page": 0,
@@ -1606,9 +1678,9 @@
                     71.5170999999973,
                     344.6579999999958,
                     358.0649999999878,
-                    376.81699999999546
+                    378.2569999999978
                 ],
-                "BlockAlign": "Before",
+                "BlockAlign": "Middle",
                 "BorderColor": [
                     0,
                     0,
@@ -1622,7 +1694,7 @@
                     0.25
                 ],
                 "ColIndex": 0,
-                "Height": 32.125,
+                "Height": 33.625,
                 "InlineAlign": "Start",
                 "RowIndex": 1,
                 "Width": 286.375
@@ -1632,13 +1704,13 @@
             "Bounds": [
                 77.447998046875,
                 360.5731964111328,
-                176.1412811279297,
+                186.8865509033203,
                 370.0282440185547
             ],
             "ClipBounds": [
                 77.447998046875,
                 360.5731964111328,
-                176.1412811279297,
+                186.8865509033203,
                 370.0282440185547
             ],
             "Font": {
@@ -1649,15 +1721,15 @@
                 "font_type": "TrueType",
                 "italic": false,
                 "monospaced": false,
-                "name": "GCKFDL+ArialMT",
+                "name": "MPZLTU+ArialMT",
                 "subset": true,
                 "weight": 400
             },
             "HasClip": true,
-            "Lang": "en",
+            "Lang": "it",
             "Page": 0,
             "Path": "//Document/Sect/Table[3]/TR[2]/TD/P",
-            "Text": "Licensed Fresh Pizza ",
+            "Text": "Unbranded Granite Fish ",
             "TextSize": 10.080001831054688,
             "attributes": {
                 "LineHeight": 12.125
@@ -1667,13 +1739,13 @@
             "Bounds": [
                 363.82000732421875,
                 360.5731964111328,
-                383.3751983642578,
+                378.3000030517578,
                 370.0282440185547
             ],
             "ClipBounds": [
                 363.82000732421875,
                 360.5731964111328,
-                383.3751983642578,
+                378.3000030517578,
                 370.0282440185547
             ],
             "Page": 0,
@@ -1683,9 +1755,9 @@
                     357.58499999999185,
                     344.6579999999958,
                     414.22299999999814,
-                    376.81699999999546
+                    378.2569999999978
                 ],
-                "BlockAlign": "Before",
+                "BlockAlign": "Middle",
                 "BorderColor": [
                     0,
                     0,
@@ -1694,7 +1766,7 @@
                 "BorderStyle": "Solid",
                 "BorderThickness": 0.25,
                 "ColIndex": 1,
-                "Height": 32.125,
+                "Height": 33.625,
                 "InlineAlign": "Start",
                 "RowIndex": 1,
                 "Width": 56.625
@@ -1704,13 +1776,13 @@
             "Bounds": [
                 363.82000732421875,
                 360.5731964111328,
-                383.3751983642578,
+                378.3000030517578,
                 370.0282440185547
             ],
             "ClipBounds": [
                 363.82000732421875,
                 360.5731964111328,
-                383.3751983642578,
+                378.3000030517578,
                 370.0282440185547
             ],
             "Font": {
@@ -1721,15 +1793,15 @@
                 "font_type": "TrueType",
                 "italic": false,
                 "monospaced": false,
-                "name": "GCKFDL+ArialMT",
+                "name": "MPZLTU+ArialMT",
                 "subset": true,
                 "weight": 400
             },
             "HasClip": true,
-            "Lang": "en",
+            "Lang": "it",
             "Page": 0,
             "Path": "//Document/Sect/Table[3]/TR[2]/TD[2]/P",
-            "Text": "114 ",
+            "Text": "34 ",
             "TextSize": 10.080001831054688,
             "attributes": {
                 "LineHeight": 12.125
@@ -1755,9 +1827,9 @@
                     413.74299999998766,
                     344.6579999999958,
                     481.8999999999942,
-                    376.81699999999546
+                    378.2569999999978
                 ],
-                "BlockAlign": "Before",
+                "BlockAlign": "Middle",
                 "BorderColor": [
                     0,
                     0,
@@ -1766,7 +1838,7 @@
                 "BorderStyle": "Solid",
                 "BorderThickness": 0.25,
                 "ColIndex": 2,
-                "Height": 32.125,
+                "Height": 33.625,
                 "InlineAlign": "Start",
                 "RowIndex": 1,
                 "Width": 68.125
@@ -1793,15 +1865,15 @@
                 "font_type": "TrueType",
                 "italic": false,
                 "monospaced": false,
-                "name": "GCKFDL+ArialMT",
+                "name": "MPZLTU+ArialMT",
                 "subset": true,
                 "weight": 400
             },
             "HasClip": true,
-            "Lang": "en",
+            "Lang": "it",
             "Page": 0,
             "Path": "//Document/Sect/Table[3]/TR[2]/TD[3]/P",
-            "Text": "94 ",
+            "Text": "84 ",
             "TextSize": 10.080001831054688,
             "attributes": {
                 "LineHeight": 12.125
@@ -1811,13 +1883,13 @@
             "Bounds": [
                 487.00999450683594,
                 360.5731964111328,
-                523.4736785888672,
+                517.7280731201172,
                 370.0282440185547
             ],
             "ClipBounds": [
                 487.00999450683594,
                 360.5731964111328,
-                523.4736785888672,
+                517.7280731201172,
                 370.0282440185547
             ],
             "Page": 0,
@@ -1827,9 +1899,9 @@
                     481.41999999999825,
                     344.6579999999958,
                     541.417999999976,
-                    376.81699999999546
+                    378.2569999999978
                 ],
-                "BlockAlign": "Before",
+                "BlockAlign": "Middle",
                 "BorderColor": [
                     0,
                     0,
@@ -1843,7 +1915,7 @@
                     0.5
                 ],
                 "ColIndex": 3,
-                "Height": 32.125,
+                "Height": 33.625,
                 "InlineAlign": "Start",
                 "RowIndex": 1,
                 "Width": 60
@@ -1853,13 +1925,13 @@
             "Bounds": [
                 487.00999450683594,
                 360.5731964111328,
-                523.4736785888672,
+                517.7280731201172,
                 370.0282440185547
             ],
             "ClipBounds": [
                 487.00999450683594,
                 360.5731964111328,
-                523.4736785888672,
+                517.7280731201172,
                 370.0282440185547
             ],
             "Font": {
@@ -1870,15 +1942,15 @@
                 "font_type": "TrueType",
                 "italic": false,
                 "monospaced": false,
-                "name": "GCKFDL+ArialMT",
+                "name": "MPZLTU+ArialMT",
                 "subset": true,
                 "weight": 400
             },
             "HasClip": true,
-            "Lang": "en",
+            "Lang": "it",
             "Page": 0,
             "Path": "//Document/Sect/Table[3]/TR[2]/TD[4]/P",
-            "Text": "$10716 ",
+            "Text": "$2856 ",
             "TextSize": 10.080001831054688,
             "attributes": {
                 "LineHeight": 12.125
@@ -1888,13 +1960,13 @@
             "Bounds": [
                 77.447998046875,
                 327.0632019042969,
-                196.68431091308594,
+                186.523681640625,
                 336.5182342529297
             ],
             "ClipBounds": [
                 77.447998046875,
                 327.0632019042969,
-                196.68431091308594,
+                186.523681640625,
                 336.5182342529297
             ],
             "Page": 0,
@@ -1930,13 +2002,13 @@
             "Bounds": [
                 77.447998046875,
                 327.0632019042969,
-                196.68431091308594,
+                186.523681640625,
                 336.5182342529297
             ],
             "ClipBounds": [
                 77.447998046875,
                 327.0632019042969,
-                196.68431091308594,
+                186.523681640625,
                 336.5182342529297
             ],
             "Font": {
@@ -1947,7 +2019,7 @@
                 "font_type": "TrueType",
                 "italic": false,
                 "monospaced": false,
-                "name": "GCKFDL+ArialMT",
+                "name": "MPZLTU+ArialMT",
                 "subset": true,
                 "weight": 400
             },
@@ -1955,7 +2027,7 @@
             "Lang": "en",
             "Page": 0,
             "Path": "//Document/Sect/Table[3]/TR[3]/TD/P",
-            "Text": "Unbranded Concrete Shirt ",
+            "Text": "Incredible Granite Pizza ",
             "TextSize": 10.080001831054688,
             "attributes": {
                 "LineHeight": 12.125
@@ -2019,15 +2091,15 @@
                 "font_type": "TrueType",
                 "italic": false,
                 "monospaced": false,
-                "name": "GCKFDL+ArialMT",
+                "name": "MPZLTU+ArialMT",
                 "subset": true,
                 "weight": 400
             },
             "HasClip": true,
-            "Lang": "en",
+            "Lang": "it",
             "Page": 0,
             "Path": "//Document/Sect/Table[3]/TR[3]/TD[2]/P",
-            "Text": "44 ",
+            "Text": "87 ",
             "TextSize": 10.080001831054688,
             "attributes": {
                 "LineHeight": 12.125
@@ -2091,15 +2163,15 @@
                 "font_type": "TrueType",
                 "italic": false,
                 "monospaced": false,
-                "name": "GCKFDL+ArialMT",
+                "name": "MPZLTU+ArialMT",
                 "subset": true,
                 "weight": 400
             },
             "HasClip": true,
-            "Lang": "en",
+            "Lang": "it",
             "Page": 0,
             "Path": "//Document/Sect/Table[3]/TR[3]/TD[3]/P",
-            "Text": "95 ",
+            "Text": "50 ",
             "TextSize": 10.080001831054688,
             "attributes": {
                 "LineHeight": 12.125
@@ -2168,15 +2240,15 @@
                 "font_type": "TrueType",
                 "italic": false,
                 "monospaced": false,
-                "name": "GCKFDL+ArialMT",
+                "name": "MPZLTU+ArialMT",
                 "subset": true,
                 "weight": 400
             },
             "HasClip": true,
-            "Lang": "en",
+            "Lang": "it",
             "Page": 0,
             "Path": "//Document/Sect/Table[3]/TR[3]/TD[4]/P",
-            "Text": "$4180 ",
+            "Text": "$4350 ",
             "TextSize": 10.080001831054688,
             "attributes": {
                 "LineHeight": 12.125
@@ -2186,13 +2258,13 @@
             "Bounds": [
                 77.447998046875,
                 293.5632019042969,
-                161.0918426513672,
+                176.504150390625,
                 303.0182342529297
             ],
             "ClipBounds": [
                 77.447998046875,
                 293.5632019042969,
-                161.0918426513672,
+                176.504150390625,
                 303.0182342529297
             ],
             "Page": 0,
@@ -2200,7 +2272,7 @@
             "attributes": {
                 "BBox": [
                     71.5170999999973,
-                    275.54099999999744,
+                    276.98099999999977,
                     358.0649999999878,
                     310.5799999999872
                 ],
@@ -2218,7 +2290,7 @@
                     0.25
                 ],
                 "ColIndex": 0,
-                "Height": 35,
+                "Height": 33.625,
                 "InlineAlign": "Start",
                 "RowIndex": 3,
                 "Width": 286.375
@@ -2228,13 +2300,13 @@
             "Bounds": [
                 77.447998046875,
                 293.5632019042969,
-                161.0918426513672,
+                176.504150390625,
                 303.0182342529297
             ],
             "ClipBounds": [
                 77.447998046875,
                 293.5632019042969,
-                161.0918426513672,
+                176.504150390625,
                 303.0182342529297
             ],
             "Font": {
@@ -2245,7 +2317,7 @@
                 "font_type": "TrueType",
                 "italic": false,
                 "monospaced": false,
-                "name": "GCKFDL+ArialMT",
+                "name": "MPZLTU+ArialMT",
                 "subset": true,
                 "weight": 400
             },
@@ -2253,7 +2325,7 @@
             "Lang": "en",
             "Page": 0,
             "Path": "//Document/Sect/Table[3]/TR[4]/TD/P",
-            "Text": "Sleek Plastic Shirt ",
+            "Text": "Sleek Cotton Chicken ",
             "TextSize": 10.080001831054688,
             "attributes": {
                 "LineHeight": 12.125
@@ -2277,7 +2349,7 @@
             "attributes": {
                 "BBox": [
                     357.58499999999185,
-                    275.54099999999744,
+                    276.98099999999977,
                     414.22299999999814,
                     310.5799999999872
                 ],
@@ -2290,7 +2362,7 @@
                 "BorderStyle": "Solid",
                 "BorderThickness": 0.25,
                 "ColIndex": 1,
-                "Height": 35,
+                "Height": 33.625,
                 "InlineAlign": "Start",
                 "RowIndex": 3,
                 "Width": 56.625
@@ -2317,15 +2389,15 @@
                 "font_type": "TrueType",
                 "italic": false,
                 "monospaced": false,
-                "name": "GCKFDL+ArialMT",
+                "name": "MPZLTU+ArialMT",
                 "subset": true,
                 "weight": 400
             },
             "HasClip": true,
-            "Lang": "en",
+            "Lang": "it",
             "Page": 0,
             "Path": "//Document/Sect/Table[3]/TR[4]/TD[2]/P",
-            "Text": "28 ",
+            "Text": "53 ",
             "TextSize": 10.080001831054688,
             "attributes": {
                 "LineHeight": 12.125
@@ -2349,7 +2421,7 @@
             "attributes": {
                 "BBox": [
                     413.74299999998766,
-                    275.54099999999744,
+                    276.98099999999977,
                     481.8999999999942,
                     310.5799999999872
                 ],
@@ -2362,7 +2434,7 @@
                 "BorderStyle": "Solid",
                 "BorderThickness": 0.25,
                 "ColIndex": 2,
-                "Height": 35,
+                "Height": 33.625,
                 "InlineAlign": "Start",
                 "RowIndex": 3,
                 "Width": 68.125
@@ -2389,15 +2461,15 @@
                 "font_type": "TrueType",
                 "italic": false,
                 "monospaced": false,
-                "name": "GCKFDL+ArialMT",
+                "name": "MPZLTU+ArialMT",
                 "subset": true,
                 "weight": 400
             },
             "HasClip": true,
-            "Lang": "en",
+            "Lang": "it",
             "Page": 0,
             "Path": "//Document/Sect/Table[3]/TR[4]/TD[3]/P",
-            "Text": "96 ",
+            "Text": "49 ",
             "TextSize": 10.080001831054688,
             "attributes": {
                 "LineHeight": 12.125
@@ -2421,7 +2493,7 @@
             "attributes": {
                 "BBox": [
                     481.41999999999825,
-                    275.54099999999744,
+                    276.98099999999977,
                     541.417999999976,
                     310.5799999999872
                 ],
@@ -2439,7 +2511,7 @@
                     0.5
                 ],
                 "ColIndex": 3,
-                "Height": 35,
+                "Height": 33.625,
                 "InlineAlign": "Start",
                 "RowIndex": 3,
                 "Width": 60
@@ -2466,15 +2538,15 @@
                 "font_type": "TrueType",
                 "italic": false,
                 "monospaced": false,
-                "name": "GCKFDL+ArialMT",
+                "name": "MPZLTU+ArialMT",
                 "subset": true,
                 "weight": 400
             },
             "HasClip": true,
-            "Lang": "en",
+            "Lang": "it",
             "Page": 0,
             "Path": "//Document/Sect/Table[3]/TR[4]/TD[4]/P",
-            "Text": "$2688 ",
+            "Text": "$2597 ",
             "TextSize": 10.080001831054688,
             "attributes": {
                 "LineHeight": 12.125
@@ -2484,13 +2556,13 @@
             "Bounds": [
                 77.447998046875,
                 260.0832061767578,
-                162.09983825683594,
+                193.7006378173828,
                 269.5382385253906
             ],
             "ClipBounds": [
                 77.447998046875,
                 260.0832061767578,
-                162.09983825683594,
+                193.7006378173828,
                 269.5382385253906
             ],
             "Page": 0,
@@ -2498,9 +2570,9 @@
             "attributes": {
                 "BBox": [
                     71.5170999999973,
-                    243.8619999999937,
+                    243.14199999999983,
                     358.0649999999878,
-                    276.02099999999336
+                    277.4609999999957
                 ],
                 "BlockAlign": "Before",
                 "BorderColor": [
@@ -2516,7 +2588,7 @@
                     0.25
                 ],
                 "ColIndex": 0,
-                "Height": 32.125,
+                "Height": 34.375,
                 "InlineAlign": "Start",
                 "RowIndex": 4,
                 "Width": 286.375
@@ -2526,13 +2598,13 @@
             "Bounds": [
                 77.447998046875,
                 260.0832061767578,
-                162.09983825683594,
+                193.7006378173828,
                 269.5382385253906
             ],
             "ClipBounds": [
                 77.447998046875,
                 260.0832061767578,
-                162.09983825683594,
+                193.7006378173828,
                 269.5382385253906
             ],
             "Font": {
@@ -2543,7 +2615,7 @@
                 "font_type": "TrueType",
                 "italic": false,
                 "monospaced": false,
-                "name": "GCKFDL+ArialMT",
+                "name": "MPZLTU+ArialMT",
                 "subset": true,
                 "weight": 400
             },
@@ -2551,7 +2623,7 @@
             "Lang": "en",
             "Page": 0,
             "Path": "//Document/Sect/Table[3]/TR[5]/TD/P",
-            "Text": "Rustic Plastic Fish ",
+            "Text": "Fantastic Frozen Chicken ",
             "TextSize": 10.080001831054688,
             "attributes": {
                 "LineHeight": 12.125
@@ -2575,9 +2647,9 @@
             "attributes": {
                 "BBox": [
                     357.58499999999185,
-                    243.8619999999937,
+                    243.14199999999983,
                     414.22299999999814,
-                    276.02099999999336
+                    277.4609999999957
                 ],
                 "BlockAlign": "Before",
                 "BorderColor": [
@@ -2588,7 +2660,7 @@
                 "BorderStyle": "Solid",
                 "BorderThickness": 0.25,
                 "ColIndex": 1,
-                "Height": 32.125,
+                "Height": 34.375,
                 "InlineAlign": "Start",
                 "RowIndex": 4,
                 "Width": 56.625
@@ -2615,15 +2687,15 @@
                 "font_type": "TrueType",
                 "italic": false,
                 "monospaced": false,
-                "name": "GCKFDL+ArialMT",
+                "name": "MPZLTU+ArialMT",
                 "subset": true,
                 "weight": 400
             },
             "HasClip": true,
-            "Lang": "en",
+            "Lang": "it",
             "Page": 0,
             "Path": "//Document/Sect/Table[3]/TR[5]/TD[2]/P",
-            "Text": "83 ",
+            "Text": "84 ",
             "TextSize": 10.080001831054688,
             "attributes": {
                 "LineHeight": 12.125
@@ -2647,9 +2719,9 @@
             "attributes": {
                 "BBox": [
                     413.74299999998766,
-                    243.8619999999937,
+                    243.14199999999983,
                     481.8999999999942,
-                    276.02099999999336
+                    277.4609999999957
                 ],
                 "BlockAlign": "Before",
                 "BorderColor": [
@@ -2660,7 +2732,7 @@
                 "BorderStyle": "Solid",
                 "BorderThickness": 0.25,
                 "ColIndex": 2,
-                "Height": 32.125,
+                "Height": 34.375,
                 "InlineAlign": "Start",
                 "RowIndex": 4,
                 "Width": 68.125
@@ -2687,15 +2759,15 @@
                 "font_type": "TrueType",
                 "italic": false,
                 "monospaced": false,
-                "name": "GCKFDL+ArialMT",
+                "name": "MPZLTU+ArialMT",
                 "subset": true,
                 "weight": 400
             },
             "HasClip": true,
-            "Lang": "en",
+            "Lang": "it",
             "Page": 0,
             "Path": "//Document/Sect/Table[3]/TR[5]/TD[3]/P",
-            "Text": "44 ",
+            "Text": "83 ",
             "TextSize": 10.080001831054688,
             "attributes": {
                 "LineHeight": 12.125
@@ -2719,9 +2791,9 @@
             "attributes": {
                 "BBox": [
                     481.41999999999825,
-                    243.8619999999937,
+                    243.14199999999983,
                     541.417999999976,
-                    276.02099999999336
+                    277.4609999999957
                 ],
                 "BlockAlign": "Before",
                 "BorderColor": [
@@ -2737,7 +2809,7 @@
                     0.5
                 ],
                 "ColIndex": 3,
-                "Height": 32.125,
+                "Height": 34.375,
                 "InlineAlign": "Start",
                 "RowIndex": 4,
                 "Width": 60
@@ -2764,15 +2836,15 @@
                 "font_type": "TrueType",
                 "italic": false,
                 "monospaced": false,
-                "name": "GCKFDL+ArialMT",
+                "name": "MPZLTU+ArialMT",
                 "subset": true,
                 "weight": 400
             },
             "HasClip": true,
-            "Lang": "en",
+            "Lang": "it",
             "Page": 0,
             "Path": "//Document/Sect/Table[3]/TR[5]/TD[4]/P",
-            "Text": "$3652 ",
+            "Text": "$6972 ",
             "TextSize": 10.080001831054688,
             "attributes": {
                 "LineHeight": 12.125
@@ -2782,13 +2854,13 @@
             "Bounds": [
                 77.447998046875,
                 226.5832061767578,
-                205.4840850830078,
+                182.56224060058594,
                 236.03823852539062
             ],
             "ClipBounds": [
                 77.447998046875,
                 226.5832061767578,
-                205.4840850830078,
+                182.56224060058594,
                 236.03823852539062
             ],
             "Page": 0,
@@ -2796,11 +2868,11 @@
             "attributes": {
                 "BBox": [
                     71.5170999999973,
-                    209.30399999999645,
+                    208.58399999999529,
                     358.0649999999878,
-                    244.34199999999691
+                    243.62199999999575
                 ],
-                "BlockAlign": "Middle",
+                "BlockAlign": "Before",
                 "BorderColor": [
                     0,
                     0,
@@ -2824,13 +2896,13 @@
             "Bounds": [
                 77.447998046875,
                 226.5832061767578,
-                205.4840850830078,
+                182.56224060058594,
                 236.03823852539062
             ],
             "ClipBounds": [
                 77.447998046875,
                 226.5832061767578,
-                205.4840850830078,
+                182.56224060058594,
                 236.03823852539062
             ],
             "Font": {
@@ -2841,7 +2913,7 @@
                 "font_type": "TrueType",
                 "italic": false,
                 "monospaced": false,
-                "name": "GCKFDL+ArialMT",
+                "name": "MPZLTU+ArialMT",
                 "subset": true,
                 "weight": 400
             },
@@ -2849,7 +2921,7 @@
             "Lang": "en",
             "Page": 0,
             "Path": "//Document/Sect/Table[3]/TR[6]/TD/P",
-            "Text": "Intelligent Granite Computer ",
+            "Text": "Intelligent Cotton Pizza ",
             "TextSize": 10.080001831054688,
             "attributes": {
                 "LineHeight": 12.125
@@ -2859,13 +2931,13 @@
             "Bounds": [
                 363.82000732421875,
                 226.5832061767578,
-                383.3751983642578,
+                378.3000030517578,
                 236.03823852539062
             ],
             "ClipBounds": [
                 363.82000732421875,
                 226.5832061767578,
-                383.3751983642578,
+                378.3000030517578,
                 236.03823852539062
             ],
             "Page": 0,
@@ -2873,11 +2945,11 @@
             "attributes": {
                 "BBox": [
                     357.58499999999185,
-                    209.30399999999645,
+                    208.58399999999529,
                     414.22299999999814,
-                    244.34199999999691
+                    243.62199999999575
                 ],
-                "BlockAlign": "Middle",
+                "BlockAlign": "Before",
                 "BorderColor": [
                     0,
                     0,
@@ -2896,13 +2968,13 @@
             "Bounds": [
                 363.82000732421875,
                 226.5832061767578,
-                383.3751983642578,
+                378.3000030517578,
                 236.03823852539062
             ],
             "ClipBounds": [
                 363.82000732421875,
                 226.5832061767578,
-                383.3751983642578,
+                378.3000030517578,
                 236.03823852539062
             ],
             "Font": {
@@ -2913,15 +2985,15 @@
                 "font_type": "TrueType",
                 "italic": false,
                 "monospaced": false,
-                "name": "GCKFDL+ArialMT",
+                "name": "MPZLTU+ArialMT",
                 "subset": true,
                 "weight": 400
             },
             "HasClip": true,
-            "Lang": "en",
+            "Lang": "it",
             "Page": 0,
             "Path": "//Document/Sect/Table[3]/TR[6]/TD[2]/P",
-            "Text": "117 ",
+            "Text": "67 ",
             "TextSize": 10.080001831054688,
             "attributes": {
                 "LineHeight": 12.125
@@ -2945,11 +3017,11 @@
             "attributes": {
                 "BBox": [
                     413.74299999998766,
-                    209.30399999999645,
+                    208.58399999999529,
                     481.8999999999942,
-                    244.34199999999691
+                    243.62199999999575
                 ],
-                "BlockAlign": "Middle",
+                "BlockAlign": "Before",
                 "BorderColor": [
                     0,
                     0,
@@ -2985,15 +3057,15 @@
                 "font_type": "TrueType",
                 "italic": false,
                 "monospaced": false,
-                "name": "GCKFDL+ArialMT",
+                "name": "MPZLTU+ArialMT",
                 "subset": true,
                 "weight": 400
             },
             "HasClip": true,
-            "Lang": "en",
+            "Lang": "it",
             "Page": 0,
             "Path": "//Document/Sect/Table[3]/TR[6]/TD[3]/P",
-            "Text": "85 ",
+            "Text": "93 ",
             "TextSize": 10.080001831054688,
             "attributes": {
                 "LineHeight": 12.125
@@ -3017,11 +3089,11 @@
             "attributes": {
                 "BBox": [
                     481.41999999999825,
-                    209.30399999999645,
+                    208.58399999999529,
                     541.417999999976,
-                    244.34199999999691
+                    243.62199999999575
                 ],
-                "BlockAlign": "Middle",
+                "BlockAlign": "Before",
                 "BorderColor": [
                     0,
                     0,
@@ -3062,15 +3134,15 @@
                 "font_type": "TrueType",
                 "italic": false,
                 "monospaced": false,
-                "name": "GCKFDL+ArialMT",
+                "name": "MPZLTU+ArialMT",
                 "subset": true,
                 "weight": 400
             },
             "HasClip": true,
-            "Lang": "en",
+            "Lang": "it",
             "Page": 0,
             "Path": "//Document/Sect/Table[3]/TR[6]/TD[4]/P",
-            "Text": "$9945 ",
+            "Text": "$6231 ",
             "TextSize": 10.080001831054688,
             "attributes": {
                 "LineHeight": 12.125
@@ -3080,13 +3152,13 @@
             "Bounds": [
                 77.447998046875,
                 193.0731964111328,
-                184.73951721191406,
+                185.83824157714844,
                 202.5282440185547
             ],
             "ClipBounds": [
                 77.447998046875,
                 193.0731964111328,
-                184.73951721191406,
+                185.83824157714844,
                 202.5282440185547
             ],
             "Page": 0,
@@ -3094,9 +3166,9 @@
             "attributes": {
                 "BBox": [
                     71.5170999999973,
-                    176.18499999999767,
+                    175.4649999999965,
                     358.0649999999878,
-                    209.78399999999965
+                    209.0639999999985
                 ],
                 "BlockAlign": "Before",
                 "BorderColor": [
@@ -3122,13 +3194,13 @@
             "Bounds": [
                 77.447998046875,
                 193.0731964111328,
-                184.73951721191406,
+                185.83824157714844,
                 202.5282440185547
             ],
             "ClipBounds": [
                 77.447998046875,
                 193.0731964111328,
-                184.73951721191406,
+                185.83824157714844,
                 202.5282440185547
             ],
             "Font": {
@@ -3139,7 +3211,7 @@
                 "font_type": "TrueType",
                 "italic": false,
                 "monospaced": false,
-                "name": "GCKFDL+ArialMT",
+                "name": "MPZLTU+ArialMT",
                 "subset": true,
                 "weight": 400
             },
@@ -3147,7 +3219,7 @@
             "Lang": "en",
             "Page": 0,
             "Path": "//Document/Sect/Table[3]/TR[7]/TD/P",
-            "Text": "Ergonomic Fresh Salad ",
+            "Text": "Ergonomic Plastic Tuna ",
             "TextSize": 10.080001831054688,
             "attributes": {
                 "LineHeight": 12.125
@@ -3157,13 +3229,13 @@
             "Bounds": [
                 363.82000732421875,
                 193.0731964111328,
-                378.3000030517578,
+                383.3751983642578,
                 202.5282440185547
             ],
             "ClipBounds": [
                 363.82000732421875,
                 193.0731964111328,
-                378.3000030517578,
+                383.3751983642578,
                 202.5282440185547
             ],
             "Page": 0,
@@ -3171,9 +3243,9 @@
             "attributes": {
                 "BBox": [
                     357.58499999999185,
-                    176.18499999999767,
+                    175.4649999999965,
                     414.22299999999814,
-                    209.78399999999965
+                    209.0639999999985
                 ],
                 "BlockAlign": "Before",
                 "BorderColor": [
@@ -3194,13 +3266,13 @@
             "Bounds": [
                 363.82000732421875,
                 193.0731964111328,
-                378.3000030517578,
+                383.3751983642578,
                 202.5282440185547
             ],
             "ClipBounds": [
                 363.82000732421875,
                 193.0731964111328,
-                378.3000030517578,
+                383.3751983642578,
                 202.5282440185547
             ],
             "Font": {
@@ -3211,15 +3283,15 @@
                 "font_type": "TrueType",
                 "italic": false,
                 "monospaced": false,
-                "name": "GCKFDL+ArialMT",
+                "name": "MPZLTU+ArialMT",
                 "subset": true,
                 "weight": 400
             },
             "HasClip": true,
-            "Lang": "en",
+            "Lang": "it",
             "Page": 0,
             "Path": "//Document/Sect/Table[3]/TR[7]/TD[2]/P",
-            "Text": "34 ",
+            "Text": "116 ",
             "TextSize": 10.080001831054688,
             "attributes": {
                 "LineHeight": 12.125
@@ -3243,9 +3315,9 @@
             "attributes": {
                 "BBox": [
                     413.74299999998766,
-                    176.18499999999767,
+                    175.4649999999965,
                     481.8999999999942,
-                    209.78399999999965
+                    209.0639999999985
                 ],
                 "BlockAlign": "Before",
                 "BorderColor": [
@@ -3283,15 +3355,15 @@
                 "font_type": "TrueType",
                 "italic": false,
                 "monospaced": false,
-                "name": "GCKFDL+ArialMT",
+                "name": "MPZLTU+ArialMT",
                 "subset": true,
                 "weight": 400
             },
             "HasClip": true,
-            "Lang": "en",
+            "Lang": "it",
             "Page": 0,
             "Path": "//Document/Sect/Table[3]/TR[7]/TD[3]/P",
-            "Text": "25 ",
+            "Text": "79 ",
             "TextSize": 10.080001831054688,
             "attributes": {
                 "LineHeight": 12.125
@@ -3301,13 +3373,13 @@
             "Bounds": [
                 487.00999450683594,
                 193.0731964111328,
-                512.3251953125,
+                517.7280731201172,
                 202.5282440185547
             ],
             "ClipBounds": [
                 487.00999450683594,
                 193.0731964111328,
-                512.3251953125,
+                517.7280731201172,
                 202.5282440185547
             ],
             "Page": 0,
@@ -3315,9 +3387,9 @@
             "attributes": {
                 "BBox": [
                     481.41999999999825,
-                    176.18499999999767,
+                    175.4649999999965,
                     541.417999999976,
-                    209.78399999999965
+                    209.0639999999985
                 ],
                 "BlockAlign": "Before",
                 "BorderColor": [
@@ -3343,13 +3415,13 @@
             "Bounds": [
                 487.00999450683594,
                 193.0731964111328,
-                512.3251953125,
+                517.7280731201172,
                 202.5282440185547
             ],
             "ClipBounds": [
                 487.00999450683594,
                 193.0731964111328,
-                512.3251953125,
+                517.7280731201172,
                 202.5282440185547
             ],
             "Font": {
@@ -3360,15 +3432,15 @@
                 "font_type": "TrueType",
                 "italic": false,
                 "monospaced": false,
-                "name": "GCKFDL+ArialMT",
+                "name": "MPZLTU+ArialMT",
                 "subset": true,
                 "weight": 400
             },
             "HasClip": true,
-            "Lang": "en",
+            "Lang": "it",
             "Page": 0,
             "Path": "//Document/Sect/Table[3]/TR[7]/TD[4]/P",
-            "Text": "$850 ",
+            "Text": "$9164 ",
             "TextSize": 10.080001831054688,
             "attributes": {
                 "LineHeight": 12.125
@@ -3378,13 +3450,13 @@
             "Bounds": [
                 77.447998046875,
                 159.59320068359375,
-                202.8936004638672,
+                166.2124786376953,
                 169.04823303222656
             ],
             "ClipBounds": [
                 77.447998046875,
                 159.59320068359375,
-                202.8936004638672,
+                166.2124786376953,
                 169.04823303222656
             ],
             "Page": 0,
@@ -3392,9 +3464,9 @@
             "attributes": {
                 "BBox": [
                     71.5170999999973,
-                    143.0659999999989,
+                    141.74599999999919,
                     358.0649999999878,
-                    176.6649999999936
+                    175.9449999999997
                 ],
                 "BlockAlign": "Before",
                 "BorderColor": [
@@ -3405,12 +3477,12 @@
                 "BorderStyle": "Solid",
                 "BorderThickness": [
                     0.25,
-                    0.25,
+                    0.625,
                     0.5,
                     0.25
                 ],
                 "ColIndex": 0,
-                "Height": 33.625,
+                "Height": 34.25,
                 "InlineAlign": "Start",
                 "RowIndex": 7,
                 "Width": 286.375
@@ -3420,13 +3492,13 @@
             "Bounds": [
                 77.447998046875,
                 159.59320068359375,
-                202.8936004638672,
+                166.2124786376953,
                 169.04823303222656
             ],
             "ClipBounds": [
                 77.447998046875,
                 159.59320068359375,
-                202.8936004638672,
+                166.2124786376953,
                 169.04823303222656
             ],
             "Font": {
@@ -3437,7 +3509,7 @@
                 "font_type": "TrueType",
                 "italic": false,
                 "monospaced": false,
-                "name": "GCKFDL+ArialMT",
+                "name": "MPZLTU+ArialMT",
                 "subset": true,
                 "weight": 400
             },
@@ -3445,7 +3517,7 @@
             "Lang": "en",
             "Page": 0,
             "Path": "//Document/Sect/Table[3]/TR[8]/TD/P",
-            "Text": "Generic Wooden Sausages ",
+            "Text": "Sleek Plastic Pants ",
             "TextSize": 10.080001831054688,
             "attributes": {
                 "LineHeight": 12.125
@@ -3455,13 +3527,13 @@
             "Bounds": [
                 363.82000732421875,
                 159.59320068359375,
-                383.3751983642578,
+                378.3000030517578,
                 169.04823303222656
             ],
             "ClipBounds": [
                 363.82000732421875,
                 159.59320068359375,
-                383.3751983642578,
+                378.3000030517578,
                 169.04823303222656
             ],
             "Page": 0,
@@ -3469,9 +3541,9 @@
             "attributes": {
                 "BBox": [
                     357.58499999999185,
-                    143.0659999999989,
+                    141.74599999999919,
                     414.22299999999814,
-                    176.6649999999936
+                    175.9449999999997
                 ],
                 "BlockAlign": "Before",
                 "BorderColor": [
@@ -3480,9 +3552,14 @@
                     0
                 ],
                 "BorderStyle": "Solid",
-                "BorderThickness": 0.25,
+                "BorderThickness": [
+                    0.25,
+                    0.625,
+                    0.25,
+                    0.25
+                ],
                 "ColIndex": 1,
-                "Height": 33.625,
+                "Height": 34.25,
                 "InlineAlign": "Start",
                 "RowIndex": 7,
                 "Width": 56.625
@@ -3492,13 +3569,13 @@
             "Bounds": [
                 363.82000732421875,
                 159.59320068359375,
-                383.3751983642578,
+                378.3000030517578,
                 169.04823303222656
             ],
             "ClipBounds": [
                 363.82000732421875,
                 159.59320068359375,
-                383.3751983642578,
+                378.3000030517578,
                 169.04823303222656
             ],
             "Font": {
@@ -3509,15 +3586,15 @@
                 "font_type": "TrueType",
                 "italic": false,
                 "monospaced": false,
-                "name": "GCKFDL+ArialMT",
+                "name": "MPZLTU+ArialMT",
                 "subset": true,
                 "weight": 400
             },
             "HasClip": true,
-            "Lang": "en",
+            "Lang": "it",
             "Page": 0,
             "Path": "//Document/Sect/Table[3]/TR[8]/TD[2]/P",
-            "Text": "128 ",
+            "Text": "39 ",
             "TextSize": 10.080001831054688,
             "attributes": {
                 "LineHeight": 12.125
@@ -3541,9 +3618,9 @@
             "attributes": {
                 "BBox": [
                     413.74299999998766,
-                    143.0659999999989,
+                    141.74599999999919,
                     481.8999999999942,
-                    176.6649999999936
+                    175.9449999999997
                 ],
                 "BlockAlign": "Before",
                 "BorderColor": [
@@ -3552,9 +3629,14 @@
                     0
                 ],
                 "BorderStyle": "Solid",
-                "BorderThickness": 0.25,
+                "BorderThickness": [
+                    0.25,
+                    0.625,
+                    0.25,
+                    0.25
+                ],
                 "ColIndex": 2,
-                "Height": 33.625,
+                "Height": 34.25,
                 "InlineAlign": "Start",
                 "RowIndex": 7,
                 "Width": 68.125
@@ -3581,15 +3663,15 @@
                 "font_type": "TrueType",
                 "italic": false,
                 "monospaced": false,
-                "name": "GCKFDL+ArialMT",
+                "name": "MPZLTU+ArialMT",
                 "subset": true,
                 "weight": 400
             },
             "HasClip": true,
-            "Lang": "en",
+            "Lang": "it",
             "Page": 0,
             "Path": "//Document/Sect/Table[3]/TR[8]/TD[3]/P",
-            "Text": "87 ",
+            "Text": "65 ",
             "TextSize": 10.080001831054688,
             "attributes": {
                 "LineHeight": 12.125
@@ -3599,13 +3681,13 @@
             "Bounds": [
                 487.00999450683594,
                 159.59320068359375,
-                523.4736785888672,
+                517.7280731201172,
                 169.04823303222656
             ],
             "ClipBounds": [
                 487.00999450683594,
                 159.59320068359375,
-                523.4736785888672,
+                517.7280731201172,
                 169.04823303222656
             ],
             "Page": 0,
@@ -3613,9 +3695,9 @@
             "attributes": {
                 "BBox": [
                     481.41999999999825,
-                    143.0659999999989,
+                    141.74599999999919,
                     541.417999999976,
-                    176.6649999999936
+                    175.9449999999997
                 ],
                 "BlockAlign": "Before",
                 "BorderColor": [
@@ -3626,12 +3708,12 @@
                 "BorderStyle": "Solid",
                 "BorderThickness": [
                     0.25,
-                    0.25,
+                    0.625,
                     0.25,
                     0.5
                 ],
                 "ColIndex": 3,
-                "Height": 33.625,
+                "Height": 34.25,
                 "InlineAlign": "Start",
                 "RowIndex": 7,
                 "Width": 60
@@ -3641,13 +3723,13 @@
             "Bounds": [
                 487.00999450683594,
                 159.59320068359375,
-                523.4736785888672,
+                517.7280731201172,
                 169.04823303222656
             ],
             "ClipBounds": [
                 487.00999450683594,
                 159.59320068359375,
-                523.4736785888672,
+                517.7280731201172,
                 169.04823303222656
             ],
             "Font": {
@@ -3658,15 +3740,15 @@
                 "font_type": "TrueType",
                 "italic": false,
                 "monospaced": false,
-                "name": "GCKFDL+ArialMT",
+                "name": "MPZLTU+ArialMT",
                 "subset": true,
                 "weight": 400
             },
             "HasClip": true,
-            "Lang": "en",
+            "Lang": "it",
             "Page": 0,
             "Path": "//Document/Sect/Table[3]/TR[8]/TD[4]/P",
-            "Text": "$11136 ",
+            "Text": "$2535 ",
             "TextSize": 10.080001831054688,
             "attributes": {
                 "LineHeight": 12.125
@@ -3675,335 +3757,27 @@
         {
             "Bounds": [
                 77.447998046875,
-                126.09320068359375,
-                200.38368225097656,
-                135.54823303222656
+                563.5700073242188,
+                526.1329956054688,
+                706.0482330322266
             ],
             "ClipBounds": [
                 77.447998046875,
-                126.09320068359375,
-                200.38368225097656,
-                135.54823303222656
-            ],
-            "Page": 0,
-            "Path": "//Document/Sect/Table[3]/TR[9]/TD",
-            "attributes": {
-                "BBox": [
-                    71.5170999999973,
-                    108.14799999999741,
-                    358.0649999999878,
-                    143.54599999999482
-                ],
-                "BlockAlign": "Before",
-                "BorderColor": [
-                    0,
-                    0,
-                    0
-                ],
-                "BorderStyle": "Solid",
-                "BorderThickness": [
-                    0.25,
-                    0.625,
-                    0.5,
-                    0.25
-                ],
-                "ColIndex": 0,
-                "Height": 35.375,
-                "InlineAlign": "Start",
-                "RowIndex": 8,
-                "Width": 286.375
-            }
-        },
-        {
-            "Bounds": [
-                77.447998046875,
-                126.09320068359375,
-                200.38368225097656,
-                135.54823303222656
-            ],
-            "ClipBounds": [
-                77.447998046875,
-                126.09320068359375,
-                200.38368225097656,
-                135.54823303222656
-            ],
-            "Font": {
-                "alt_family_name": "Arial",
-                "embedded": true,
-                "encoding": "WinAnsiEncoding",
-                "family_name": "Arial MT",
-                "font_type": "TrueType",
-                "italic": false,
-                "monospaced": false,
-                "name": "GCKFDL+ArialMT",
-                "subset": true,
-                "weight": 400
-            },
-            "HasClip": true,
-            "Lang": "en",
-            "Page": 0,
-            "Path": "//Document/Sect/Table[3]/TR[9]/TD/P",
-            "Text": "Handmade Wooden Shoes ",
-            "TextSize": 10.080001831054688,
-            "attributes": {
-                "LineHeight": 12.125
-            }
-        },
-        {
-            "Bounds": [
-                363.82000732421875,
-                126.09320068359375,
-                372.2267150878906,
-                135.54823303222656
-            ],
-            "ClipBounds": [
-                363.82000732421875,
-                126.09320068359375,
-                372.2267150878906,
-                135.54823303222656
-            ],
-            "Page": 0,
-            "Path": "//Document/Sect/Table[3]/TR[9]/TD[2]",
-            "attributes": {
-                "BBox": [
-                    357.58499999999185,
-                    108.14799999999741,
-                    414.22299999999814,
-                    143.54599999999482
-                ],
-                "BlockAlign": "Before",
-                "BorderColor": [
-                    0,
-                    0,
-                    0
-                ],
-                "BorderStyle": "Solid",
-                "BorderThickness": [
-                    0.25,
-                    0.625,
-                    0.25,
-                    0.25
-                ],
-                "ColIndex": 1,
-                "Height": 35.375,
-                "InlineAlign": "Start",
-                "RowIndex": 8,
-                "Width": 56.625
-            }
-        },
-        {
-            "Bounds": [
-                363.82000732421875,
-                126.09320068359375,
-                372.2267150878906,
-                135.54823303222656
-            ],
-            "ClipBounds": [
-                363.82000732421875,
-                126.09320068359375,
-                372.2267150878906,
-                135.54823303222656
-            ],
-            "Font": {
-                "alt_family_name": "Arial",
-                "embedded": true,
-                "encoding": "WinAnsiEncoding",
-                "family_name": "Arial MT",
-                "font_type": "TrueType",
-                "italic": false,
-                "monospaced": false,
-                "name": "GCKFDL+ArialMT",
-                "subset": true,
-                "weight": 400
-            },
-            "HasClip": true,
-            "Lang": "en",
-            "Page": 0,
-            "Path": "//Document/Sect/Table[3]/TR[9]/TD[2]/P",
-            "Text": "4 ",
-            "TextSize": 10.080001831054688,
-            "attributes": {
-                "LineHeight": 12.125
-            }
-        },
-        {
-            "Bounds": [
-                420.3800048828125,
-                126.09320068359375,
-                434.86000061035156,
-                135.54823303222656
-            ],
-            "ClipBounds": [
-                420.3800048828125,
-                126.09320068359375,
-                434.86000061035156,
-                135.54823303222656
-            ],
-            "Page": 0,
-            "Path": "//Document/Sect/Table[3]/TR[9]/TD[3]",
-            "attributes": {
-                "BBox": [
-                    413.74299999998766,
-                    108.14799999999741,
-                    481.8999999999942,
-                    143.54599999999482
-                ],
-                "BlockAlign": "Before",
-                "BorderColor": [
-                    0,
-                    0,
-                    0
-                ],
-                "BorderStyle": "Solid",
-                "BorderThickness": [
-                    0.25,
-                    0.625,
-                    0.25,
-                    0.25
-                ],
-                "ColIndex": 2,
-                "Height": 35.375,
-                "InlineAlign": "Start",
-                "RowIndex": 8,
-                "Width": 68.125
-            }
-        },
-        {
-            "Bounds": [
-                420.3800048828125,
-                126.09320068359375,
-                434.86000061035156,
-                135.54823303222656
-            ],
-            "ClipBounds": [
-                420.3800048828125,
-                126.09320068359375,
-                434.86000061035156,
-                135.54823303222656
-            ],
-            "Font": {
-                "alt_family_name": "Arial",
-                "embedded": true,
-                "encoding": "WinAnsiEncoding",
-                "family_name": "Arial MT",
-                "font_type": "TrueType",
-                "italic": false,
-                "monospaced": false,
-                "name": "GCKFDL+ArialMT",
-                "subset": true,
-                "weight": 400
-            },
-            "HasClip": true,
-            "Lang": "en",
-            "Page": 0,
-            "Path": "//Document/Sect/Table[3]/TR[9]/TD[3]/P",
-            "Text": "23 ",
-            "TextSize": 10.080001831054688,
-            "attributes": {
-                "LineHeight": 12.125
-            }
-        },
-        {
-            "Bounds": [
-                487.00999450683594,
-                126.09320068359375,
-                506.17027282714844,
-                135.54823303222656
-            ],
-            "ClipBounds": [
-                487.00999450683594,
-                126.09320068359375,
-                506.17027282714844,
-                135.54823303222656
-            ],
-            "Page": 0,
-            "Path": "//Document/Sect/Table[3]/TR[9]/TD[4]",
-            "attributes": {
-                "BBox": [
-                    481.41999999999825,
-                    108.14799999999741,
-                    541.417999999976,
-                    143.54599999999482
-                ],
-                "BlockAlign": "Before",
-                "BorderColor": [
-                    0,
-                    0,
-                    0
-                ],
-                "BorderStyle": "Solid",
-                "BorderThickness": [
-                    0.25,
-                    0.625,
-                    0.25,
-                    0.5
-                ],
-                "ColIndex": 3,
-                "Height": 35.375,
-                "InlineAlign": "Start",
-                "RowIndex": 8,
-                "Width": 60
-            }
-        },
-        {
-            "Bounds": [
-                487.00999450683594,
-                126.09320068359375,
-                506.17027282714844,
-                135.54823303222656
-            ],
-            "ClipBounds": [
-                487.00999450683594,
-                126.09320068359375,
-                506.17027282714844,
-                135.54823303222656
-            ],
-            "Font": {
-                "alt_family_name": "Arial",
-                "embedded": true,
-                "encoding": "WinAnsiEncoding",
-                "family_name": "Arial MT",
-                "font_type": "TrueType",
-                "italic": false,
-                "monospaced": false,
-                "name": "GCKFDL+ArialMT",
-                "subset": true,
-                "weight": 400
-            },
-            "HasClip": true,
-            "Lang": "en",
-            "Page": 0,
-            "Path": "//Document/Sect/Table[3]/TR[9]/TD[4]/P",
-            "Text": "$92 ",
-            "TextSize": 10.080001831054688,
-            "attributes": {
-                "LineHeight": 12.125
-            }
-        },
-        {
-            "Bounds": [
-                77.447998046875,
-                650.1331939697266,
-                522.3792724609375,
-                693.0882415771484
-            ],
-            "ClipBounds": [
-                77.447998046875,
-                650.1331939697266,
-                522.3792724609375,
-                693.0882415771484
+                563.5700073242188,
+                526.1329956054688,
+                706.0482330322266
             ],
             "Page": 1,
             "Path": "//Document/Sect/Table[4]",
             "attributes": {
                 "BBox": [
-                    77.03689999999915,
-                    652.2059999999765,
-                    519.8189999999886,
-                    691.4439999999886
+                    71.99709999999686,
+                    563.4089999999851,
+                    540.6979999999749,
+                    704.4039999999804
                 ],
                 "NumCol": 2,
-                "NumRow": 2,
+                "NumRow": 3,
                 "Placement": "Block",
                 "SpaceAfter": 11.25
             }
@@ -4011,45 +3785,45 @@
         {
             "Bounds": [
                 77.447998046875,
-                683.6331939697266,
+                696.5932006835938,
                 120.4593505859375,
-                693.0882415771484
+                706.0482330322266
             ],
             "ClipBounds": [
                 77.447998046875,
-                683.6331939697266,
+                696.5932006835938,
                 120.4593505859375,
-                693.0882415771484
+                706.0482330322266
             ],
             "Page": 1,
             "Path": "//Document/Sect/Table[4]/TR/TD",
             "attributes": {
                 "BBox": [
-                    77.03689999999915,
-                    666.7249999999767,
-                    479.5,
-                    691.4439999999886
+                    71.99709999999686,
+                    679.6849999999977,
+                    480.2199999999866,
+                    704.4039999999804
                 ],
                 "BlockAlign": "Before",
                 "ColIndex": 0,
                 "Height": 24.75,
                 "InlineAlign": "Start",
                 "RowIndex": 0,
-                "Width": 402.5
+                "Width": 408.25
             }
         },
         {
             "Bounds": [
                 77.447998046875,
-                683.6331939697266,
+                696.5932006835938,
                 120.4593505859375,
-                693.0882415771484
+                706.0482330322266
             ],
             "ClipBounds": [
                 77.447998046875,
-                683.6331939697266,
+                696.5932006835938,
                 120.4593505859375,
-                693.0882415771484
+                706.0482330322266
             ],
             "Font": {
                 "alt_family_name": "Arial",
@@ -4059,12 +3833,12 @@
                 "font_type": "TrueType",
                 "italic": false,
                 "monospaced": false,
-                "name": "VBXRFH+Arial-BoldMT",
+                "name": "CSBIJO+Arial-BoldMT",
                 "subset": true,
                 "weight": 700
             },
             "HasClip": true,
-            "Lang": "en",
+            "Lang": "it",
             "Page": 1,
             "Path": "//Document/Sect/Table[4]/TR/TD/P",
             "Text": "Subtotal ",
@@ -4076,45 +3850,45 @@
         {
             "Bounds": [
                 485.92999267578125,
-                683.6331939697266,
+                696.5932006835938,
                 522.3792724609375,
-                693.0882415771484
+                706.0482330322266
             ],
             "ClipBounds": [
                 485.92999267578125,
-                683.6331939697266,
+                696.5932006835938,
                 522.3792724609375,
-                693.0882415771484
+                706.0482330322266
             ],
             "Page": 1,
             "Path": "//Document/Sect/Table[4]/TR/TD[2]",
             "attributes": {
                 "BBox": [
-                    479.5,
-                    666.7249999999767,
-                    519.8189999999886,
-                    691.4439999999886
+                    480.2199999999866,
+                    679.6849999999977,
+                    540.6979999999749,
+                    704.4039999999804
                 ],
                 "BlockAlign": "Before",
                 "ColIndex": 1,
                 "Height": 24.75,
                 "InlineAlign": "Start",
                 "RowIndex": 0,
-                "Width": 40.375
+                "Width": 60.5
             }
         },
         {
             "Bounds": [
                 485.92999267578125,
-                683.6331939697266,
+                696.5932006835938,
                 522.3792724609375,
-                693.0882415771484
+                706.0482330322266
             ],
             "ClipBounds": [
                 485.92999267578125,
-                683.6331939697266,
+                696.5932006835938,
                 522.3792724609375,
-                693.0882415771484
+                706.0482330322266
             ],
             "Font": {
                 "alt_family_name": "Arial",
@@ -4124,15 +3898,15 @@
                 "font_type": "TrueType",
                 "italic": false,
                 "monospaced": false,
-                "name": "GCKFDL+ArialMT",
+                "name": "MPZLTU+ArialMT",
                 "subset": true,
                 "weight": 400
             },
             "HasClip": true,
-            "Lang": "en",
+            "Lang": "it",
             "Page": 1,
             "Path": "//Document/Sect/Table[4]/TR/TD[2]/P",
-            "Text": "$44939 ",
+            "Text": "$35785 ",
             "TextSize": 10.080001831054688,
             "attributes": {
                 "LineHeight": 12.125
@@ -4141,45 +3915,67 @@
         {
             "Bounds": [
                 77.447998046875,
-                650.1331939697266,
+                663.1132049560547,
                 109.73143005371094,
-                659.5882415771484
+                672.5682373046875
             ],
             "ClipBounds": [
                 77.447998046875,
-                650.1331939697266,
+                663.1132049560547,
                 109.73143005371094,
-                659.5882415771484
+                672.5682373046875
             ],
             "Page": 1,
             "Path": "//Document/Sect/Table[4]/TR[2]/TD",
             "attributes": {
                 "BBox": [
-                    77.03689999999915,
-                    652.2059999999765,
-                    479.5,
-                    666.7249999999767
+                    71.99709999999686,
+                    625.3269999999902,
+                    480.2199999999866,
+                    679.6849999999977
                 ],
-                "BlockAlign": "After",
+                "BlockAlign": "Before",
+                "BorderColor": [
+                    null,
+                    [
+                        0.6235349999999755,
+                        0.6235349999999755,
+                        0.6235349999999755
+                    ],
+                    null,
+                    null
+                ],
+                "BorderStyle": [
+                    "None",
+                    "Solid",
+                    "None",
+                    "None"
+                ],
+                "BorderThickness": [
+                    0,
+                    0.375,
+                    0,
+                    0
+                ],
                 "ColIndex": 0,
-                "Height": 14.5,
+                "Height": 54.375,
                 "InlineAlign": "Start",
                 "RowIndex": 1,
-                "Width": 402.5
+                "Width": 408.25
             }
         },
         {
             "Bounds": [
                 77.447998046875,
-                650.1331939697266,
+                663.1132049560547,
                 109.73143005371094,
-                659.5882415771484
+                672.5682373046875
             ],
             "ClipBounds": [
                 77.447998046875,
-                650.1331939697266,
+                663.1132049560547,
                 109.73143005371094,
-                659.5882415771484
+                672.5682373046875
             ],
             "Font": {
                 "alt_family_name": "Arial",
@@ -4189,12 +3985,12 @@
                 "font_type": "TrueType",
                 "italic": false,
                 "monospaced": false,
-                "name": "VBXRFH+Arial-BoldMT",
+                "name": "CSBIJO+Arial-BoldMT",
                 "subset": true,
                 "weight": 700
             },
             "HasClip": true,
-            "Lang": "en",
+            "Lang": "it",
             "Page": 1,
             "Path": "//Document/Sect/Table[4]/TR[2]/TD/P",
             "Text": "Tax % ",
@@ -4206,45 +4002,67 @@
         {
             "Bounds": [
                 485.92999267578125,
-                650.1331939697266,
+                663.1132049560547,
                 500.4100036621094,
-                659.5882415771484
+                672.5682373046875
             ],
             "ClipBounds": [
                 485.92999267578125,
-                650.1331939697266,
+                663.1132049560547,
                 500.4100036621094,
-                659.5882415771484
+                672.5682373046875
             ],
             "Page": 1,
             "Path": "//Document/Sect/Table[4]/TR[2]/TD[2]",
             "attributes": {
                 "BBox": [
-                    479.5,
-                    652.2059999999765,
-                    519.8189999999886,
-                    666.7249999999767
+                    480.2199999999866,
+                    625.3269999999902,
+                    540.6979999999749,
+                    679.6849999999977
                 ],
-                "BlockAlign": "After",
+                "BlockAlign": "Before",
+                "BorderColor": [
+                    null,
+                    [
+                        0.6235349999999755,
+                        0.6235349999999755,
+                        0.6235349999999755
+                    ],
+                    null,
+                    null
+                ],
+                "BorderStyle": [
+                    "None",
+                    "Solid",
+                    "None",
+                    "None"
+                ],
+                "BorderThickness": [
+                    0,
+                    0.375,
+                    0,
+                    0
+                ],
                 "ColIndex": 1,
-                "Height": 14.5,
+                "Height": 54.375,
                 "InlineAlign": "Start",
                 "RowIndex": 1,
-                "Width": 40.375
+                "Width": 60.5
             }
         },
         {
             "Bounds": [
                 485.92999267578125,
-                650.1331939697266,
+                663.1132049560547,
                 500.4100036621094,
-                659.5882415771484
+                672.5682373046875
             ],
             "ClipBounds": [
                 485.92999267578125,
-                650.1331939697266,
+                663.1132049560547,
                 500.4100036621094,
-                659.5882415771484
+                672.5682373046875
             ],
             "Font": {
                 "alt_family_name": "Arial",
@@ -4254,12 +4072,12 @@
                 "font_type": "TrueType",
                 "italic": false,
                 "monospaced": false,
-                "name": "GCKFDL+ArialMT",
+                "name": "MPZLTU+ArialMT",
                 "subset": true,
                 "weight": 400
             },
             "HasClip": true,
-            "Lang": "en",
+            "Lang": "it",
             "Page": 1,
             "Path": "//Document/Sect/Table[4]/TR[2]/TD[2]/P",
             "Text": "10 ",
@@ -4271,15 +4089,67 @@
         {
             "Bounds": [
                 77.447998046875,
-                552.523193359375,
+                565.8632049560547,
                 126.14447021484375,
-                561.9782409667969
+                575.3182373046875
             ],
             "ClipBounds": [
                 77.447998046875,
-                552.523193359375,
+                565.8632049560547,
                 126.14447021484375,
-                561.9782409667969
+                575.3182373046875
+            ],
+            "Page": 1,
+            "Path": "//Document/Sect/Table[4]/TR[3]/TD",
+            "attributes": {
+                "BBox": [
+                    71.99709999999686,
+                    563.4089999999851,
+                    480.2199999999866,
+                    626.1669999999867
+                ],
+                "BlockAlign": "After",
+                "BorderColor": [
+                    [
+                        0.6235349999999755,
+                        0.6235349999999755,
+                        0.6235349999999755
+                    ],
+                    null,
+                    null,
+                    null
+                ],
+                "BorderStyle": [
+                    "Solid",
+                    "None",
+                    "None",
+                    "None"
+                ],
+                "BorderThickness": [
+                    0.375,
+                    0,
+                    0,
+                    0
+                ],
+                "ColIndex": 0,
+                "Height": 62.75,
+                "InlineAlign": "Start",
+                "RowIndex": 2,
+                "Width": 408.25
+            }
+        },
+        {
+            "Bounds": [
+                77.447998046875,
+                565.8632049560547,
+                126.14447021484375,
+                575.3182373046875
+            ],
+            "ClipBounds": [
+                77.447998046875,
+                565.8632049560547,
+                126.14447021484375,
+                575.3182373046875
             ],
             "Font": {
                 "alt_family_name": "Arial",
@@ -4289,32 +4159,84 @@
                 "font_type": "TrueType",
                 "italic": false,
                 "monospaced": false,
-                "name": "VBXRFH+Arial-BoldMT",
+                "name": "CSBIJO+Arial-BoldMT",
                 "subset": true,
                 "weight": 700
             },
             "HasClip": true,
-            "Lang": "en",
+            "Lang": "it",
             "Page": 1,
-            "Path": "//Document/Sect/P[6]",
+            "Path": "//Document/Sect/Table[4]/TR[3]/TD/P",
             "Text": "Total Due ",
             "TextSize": 10.080001831054688,
             "attributes": {
-                "SpaceAfter": 9
+                "LineHeight": 12.125
             }
         },
         {
             "Bounds": [
                 485.92999267578125,
-                550.2299957275391,
+                563.5700073242188,
                 526.1329956054688,
-                558.6719970703125
+                572.0119934082031
             ],
             "ClipBounds": [
                 485.92999267578125,
-                550.2299957275391,
+                563.5700073242188,
                 526.1329956054688,
-                558.6719970703125
+                572.0119934082031
+            ],
+            "Page": 1,
+            "Path": "//Document/Sect/Table[4]/TR[3]/TD[2]",
+            "attributes": {
+                "BBox": [
+                    480.2199999999866,
+                    563.4089999999851,
+                    540.6979999999749,
+                    626.1669999999867
+                ],
+                "BlockAlign": "After",
+                "BorderColor": [
+                    [
+                        0.6235349999999755,
+                        0.6235349999999755,
+                        0.6235349999999755
+                    ],
+                    null,
+                    null,
+                    null
+                ],
+                "BorderStyle": [
+                    "Solid",
+                    "None",
+                    "None",
+                    "None"
+                ],
+                "BorderThickness": [
+                    0.375,
+                    0,
+                    0,
+                    0
+                ],
+                "ColIndex": 1,
+                "Height": 62.75,
+                "InlineAlign": "Start",
+                "RowIndex": 2,
+                "Width": 60.5
+            }
+        },
+        {
+            "Bounds": [
+                485.92999267578125,
+                563.5700073242188,
+                526.1329956054688,
+                572.0119934082031
+            ],
+            "ClipBounds": [
+                485.92999267578125,
+                563.5700073242188,
+                526.1329956054688,
+                572.0119934082031
             ],
             "Font": {
                 "alt_family_name": "Arial",
@@ -4324,19 +4246,18 @@
                 "font_type": "TrueType",
                 "italic": false,
                 "monospaced": false,
-                "name": "GCKFDL+ArialMT",
+                "name": "MPZLTU+ArialMT",
                 "subset": true,
                 "weight": 400
             },
             "HasClip": true,
-            "Lang": "en",
+            "Lang": "it",
             "Page": 1,
-            "Path": "//Document/Sect/P[7]",
-            "Text": "$49432.9 ",
+            "Path": "//Document/Sect/Table[4]/TR[3]/TD[2]/P",
+            "Text": "$39363.5 ",
             "TextSize": 9,
             "attributes": {
-                "LineHeight": 10.75,
-                "TextAlign": "End"
+                "LineHeight": 10.75
             }
         }
     ],
