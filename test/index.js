@@ -1,3 +1,5 @@
+console.time("START");
+
 const { getItems } = require("../src/parser.js");
 const { Item, header } = require("../src/class.js");
 const { extract } = require("../src/extractor.js");
@@ -53,17 +55,15 @@ async function processFiles(files) {
 
   for (const file of files) {
     try {
+      const num = getNextFormattedNumber(0);
       const filename = join(inputFolder, file);
-      const outputfile = join(
-        outputFolder,
-        `output${getNextFormattedNumber(0)}.json`
-      );
+      const outputfile = join(outputFolder, `output${num}.json`);
       const { elements } = await extract(
         clientContext,
         options,
         filename,
         outputfile,
-        join("./test", "requested.zip")
+        join("./test", `/zips/requested${num}.zip`)
       );
 
       const items = getItems(elements);
@@ -79,3 +79,5 @@ async function processFiles(files) {
 }
 
 processFiles(files);
+
+console.timeEnd("START");
