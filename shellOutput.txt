@@ -1,0 +1,455 @@
+> adobepdfextract-invoices@1.0.0 run
+> node src/index.js
+
+No logging configuration. Using default config
+[
+  'input00.pdf', 'input01.pdf', 'input02.pdf', 'input03.pdf', 'input04.pdf',
+  'input05.pdf', 'input06.pdf', 'input07.pdf', 'input08.pdf', 'input09.pdf',
+  'input10.pdf', 'input11.pdf', 'input12.pdf', 'input13.pdf', 'input14.pdf',
+  'input15.pdf', 'input16.pdf', 'input17.pdf', 'input18.pdf', 'input19.pdf',
+  'input20.pdf', 'input21.pdf', 'input22.pdf', 'input23.pdf', 'input24.pdf',
+  'input25.pdf', 'input26.pdf', 'input27.pdf', 'input28.pdf', 'input29.pdf',
+  'input30.pdf', 'input31.pdf', 'input32.pdf', 'input33.pdf', 'input34.pdf',
+  'input35.pdf', 'input36.pdf', 'input37.pdf', 'input38.pdf', 'input39.pdf',
+  'input40.pdf', 'input41.pdf', 'input42.pdf', 'input43.pdf', 'input44.pdf',
+  'input45.pdf', 'input46.pdf', 'input47.pdf', 'input48.pdf', 'input49.pdf',
+  'input50.pdf', 'input51.pdf', 'input52.pdf', 'input53.pdf', 'input54.pdf',
+  'input55.pdf', 'input56.pdf', 'input57.pdf', 'input58.pdf', 'input59.pdf',
+  'input60.pdf', 'input61.pdf', 'input62.pdf', 'input63.pdf', 'input64.pdf',
+  'input65.pdf', 'input66.pdf', 'input67.pdf', 'input68.pdf', 'input69.pdf',
+  'input70.pdf', 'input71.pdf', 'input72.pdf', 'input73.pdf', 'input74.pdf',
+  'input75.pdf', 'input76.pdf', 'input77.pdf', 'input78.pdf', 'input79.pdf',
+  'input80.pdf', 'input81.pdf', 'input82.pdf', 'input83.pdf', 'input84.pdf',
+  'input85.pdf', 'input86.pdf', 'input87.pdf', 'input88.pdf', 'input89.pdf',
+  'input90.pdf', 'input91.pdf', 'input92.pdf', 'input93.pdf', 'input94.pdf',
+  'input95.pdf', 'input96.pdf', 'input97.pdf', 'input98.pdf', 'input99.pdf'
+]
+2023-06-18T13:38:41.955:[INFO]: All validations successfully done. Beginning Extract Pdf operation execution
+src/index.js: 11.756s
+2023-06-18T13:38:54.591:[INFO]: Extract PDF Operation successfully completed
+2023-06-18T13:38:56.069:[INFO]: Moving the file from temporary location /tmp/pdfServicesSdkResult/Jw4Mxp3sh9v5.zip to zips/requested00.zip.
+Successfully extracted information and saved into extractedData/output00.json
+2023-06-18T13:38:56.176:[INFO]: All validations successfully done. Beginning Extract Pdf operation execution
+2023-06-18T13:39:07.416:[INFO]: Extract PDF Operation successfully completed
+2023-06-18T13:39:08.721:[INFO]: Moving the file from temporary location /tmp/pdfServicesSdkResult/Nfu4KkIxWpLv.zip to zips/requested01.zip.
+Successfully extracted information and saved into extractedData/output01.json
+2023-06-18T13:39:08.840:[INFO]: All validations successfully done. Beginning Extract Pdf operation execution
+2023-06-18T13:39:17.477:[INFO]: Extract PDF Operation successfully completed
+2023-06-18T13:39:19.070:[INFO]: Moving the file from temporary location /tmp/pdfServicesSdkResult/Ol6pPZQDodxi.zip to zips/requested02.zip.
+Successfully extracted information and saved into extractedData/output02.json
+2023-06-18T13:39:19.182:[INFO]: All validations successfully done. Beginning Extract Pdf operation execution
+2023-06-18T13:39:30.383:[INFO]: Extract PDF Operation successfully completed
+2023-06-18T13:39:31.774:[INFO]: Moving the file from temporary location /tmp/pdfServicesSdkResult/Qdkjv7McaB8E.zip to zips/requested03.zip.
+Successfully extracted information and saved into extractedData/output03.json
+2023-06-18T13:39:31.901:[INFO]: All validations successfully done. Beginning Extract Pdf operation execution
+2023-06-18T13:39:42.863:[INFO]: Extract PDF Operation successfully completed
+2023-06-18T13:39:44.269:[INFO]: Moving the file from temporary location /tmp/pdfServicesSdkResult/hgWz0bYSo8Y6.zip to zips/requested04.zip.
+Successfully extracted information and saved into extractedData/output04.json
+2023-06-18T13:39:44.357:[INFO]: All validations successfully done. Beginning Extract Pdf operation execution
+2023-06-18T13:39:53.621:[INFO]: Extract PDF Operation successfully completed
+2023-06-18T13:39:55.001:[INFO]: Moving the file from temporary location /tmp/pdfServicesSdkResult/p4Ko9aCvsZAE.zip to zips/requested05.zip.
+Successfully extracted information and saved into extractedData/output05.json
+2023-06-18T13:39:55.091:[INFO]: All validations successfully done. Beginning Extract Pdf operation execution
+2023-06-18T13:40:06.353:[INFO]: Extract PDF Operation successfully completed
+2023-06-18T13:40:07.774:[INFO]: Moving the file from temporary location /tmp/pdfServicesSdkResult/Ds9cQsbpvkqt.zip to zips/requested06.zip.
+Successfully extracted information and saved into extractedData/output06.json
+2023-06-18T13:40:07.891:[INFO]: All validations successfully done. Beginning Extract Pdf operation execution
+2023-06-18T13:40:18.095:[INFO]: Extract PDF Operation successfully completed
+2023-06-18T13:40:19.719:[INFO]: Moving the file from temporary location /tmp/pdfServicesSdkResult/3A0B9GC1UKNS.zip to zips/requested07.zip.
+Successfully extracted information and saved into extractedData/output07.json
+2023-06-18T13:40:19.794:[INFO]: All validations successfully done. Beginning Extract Pdf operation execution
+2023-06-18T13:40:31.358:[INFO]: Extract PDF Operation successfully completed
+2023-06-18T13:40:32.787:[INFO]: Moving the file from temporary location /tmp/pdfServicesSdkResult/UwCv6IWMX83U.zip to zips/requested08.zip.
+Successfully extracted information and saved into extractedData/output08.json
+2023-06-18T13:40:32.865:[INFO]: All validations successfully done. Beginning Extract Pdf operation execution
+2023-06-18T13:40:42.755:[INFO]: Extract PDF Operation successfully completed
+2023-06-18T13:40:44.334:[INFO]: Moving the file from temporary location /tmp/pdfServicesSdkResult/QwzHVP9xMMOq.zip to zips/requested09.zip.
+Successfully extracted information and saved into extractedData/output09.json
+2023-06-18T13:40:44.451:[INFO]: All validations successfully done. Beginning Extract Pdf operation execution
+2023-06-18T13:40:55.199:[INFO]: Extract PDF Operation successfully completed
+2023-06-18T13:40:56.424:[INFO]: Moving the file from temporary location /tmp/pdfServicesSdkResult/TeFKhLKvn6ax.zip to zips/requested10.zip.
+Successfully extracted information and saved into extractedData/output10.json
+2023-06-18T13:40:56.532:[INFO]: All validations successfully done. Beginning Extract Pdf operation execution
+2023-06-18T13:41:07.009:[INFO]: Extract PDF Operation successfully completed
+2023-06-18T13:41:08.486:[INFO]: Moving the file from temporary location /tmp/pdfServicesSdkResult/07FDmFRtRAAt.zip to zips/requested11.zip.
+Successfully extracted information and saved into extractedData/output11.json
+2023-06-18T13:41:08.607:[INFO]: All validations successfully done. Beginning Extract Pdf operation execution
+2023-06-18T13:41:19.061:[INFO]: Extract PDF Operation successfully completed
+2023-06-18T13:41:20.495:[INFO]: Moving the file from temporary location /tmp/pdfServicesSdkResult/sAtbijQ6b0jr.zip to zips/requested12.zip.
+Successfully extracted information and saved into extractedData/output12.json
+2023-06-18T13:41:20.593:[INFO]: All validations successfully done. Beginning Extract Pdf operation execution
+2023-06-18T13:41:31.380:[INFO]: Extract PDF Operation successfully completed
+2023-06-18T13:41:32.842:[INFO]: Moving the file from temporary location /tmp/pdfServicesSdkResult/sRTW5bDvy7gk.zip to zips/requested13.zip.
+Successfully extracted information and saved into extractedData/output13.json
+2023-06-18T13:41:32.930:[INFO]: All validations successfully done. Beginning Extract Pdf operation execution
+2023-06-18T13:41:44.090:[INFO]: Extract PDF Operation successfully completed
+2023-06-18T13:41:45.606:[INFO]: Moving the file from temporary location /tmp/pdfServicesSdkResult/VpuzNuIJk6Bu.zip to zips/requested14.zip.
+Successfully extracted information and saved into extractedData/output14.json
+2023-06-18T13:41:45.694:[INFO]: All validations successfully done. Beginning Extract Pdf operation execution
+2023-06-18T13:41:56.511:[INFO]: Extract PDF Operation successfully completed
+2023-06-18T13:41:58.152:[INFO]: Moving the file from temporary location /tmp/pdfServicesSdkResult/ktOc2ba0Ubrd.zip to zips/requested15.zip.
+Successfully extracted information and saved into extractedData/output15.json
+2023-06-18T13:41:58.257:[INFO]: All validations successfully done. Beginning Extract Pdf operation execution
+2023-06-18T13:42:08.806:[INFO]: Extract PDF Operation successfully completed
+2023-06-18T13:42:10.545:[INFO]: Moving the file from temporary location /tmp/pdfServicesSdkResult/HX544Q78FrZa.zip to zips/requested16.zip.
+Successfully extracted information and saved into extractedData/output16.json
+2023-06-18T13:42:10.619:[INFO]: All validations successfully done. Beginning Extract Pdf operation execution
+2023-06-18T13:42:20.167:[INFO]: Extract PDF Operation successfully completed
+2023-06-18T13:42:21.704:[INFO]: Moving the file from temporary location /tmp/pdfServicesSdkResult/sjVNwHxwN6Mi.zip to zips/requested17.zip.
+Successfully extracted information and saved into extractedData/output17.json
+2023-06-18T13:42:21.805:[INFO]: All validations successfully done. Beginning Extract Pdf operation execution
+2023-06-18T13:42:33.047:[INFO]: Extract PDF Operation successfully completed
+2023-06-18T13:42:34.465:[INFO]: Moving the file from temporary location /tmp/pdfServicesSdkResult/K1DwFyQ5x07T.zip to zips/requested18.zip.
+Successfully extracted information and saved into extractedData/output18.json
+2023-06-18T13:42:34.539:[INFO]: All validations successfully done. Beginning Extract Pdf operation execution
+2023-06-18T13:42:45.663:[INFO]: Extract PDF Operation successfully completed
+2023-06-18T13:42:47.432:[INFO]: Moving the file from temporary location /tmp/pdfServicesSdkResult/UYuF6ZCFn29u.zip to zips/requested19.zip.
+Successfully extracted information and saved into extractedData/output19.json
+2023-06-18T13:42:47.547:[INFO]: All validations successfully done. Beginning Extract Pdf operation execution
+2023-06-18T13:42:58.293:[INFO]: Extract PDF Operation successfully completed
+2023-06-18T13:42:59.784:[INFO]: Moving the file from temporary location /tmp/pdfServicesSdkResult/Zo1iGja5OIg6.zip to zips/requested20.zip.
+Successfully extracted information and saved into extractedData/output20.json
+2023-06-18T13:42:59.894:[INFO]: All validations successfully done. Beginning Extract Pdf operation execution
+2023-06-18T13:43:08.348:[INFO]: Extract PDF Operation successfully completed
+2023-06-18T13:43:09.930:[INFO]: Moving the file from temporary location /tmp/pdfServicesSdkResult/4lAzXTiOKG6V.zip to zips/requested21.zip.
+Successfully extracted information and saved into extractedData/output21.json
+2023-06-18T13:43:10.040:[INFO]: All validations successfully done. Beginning Extract Pdf operation execution
+2023-06-18T13:43:20.566:[INFO]: Extract PDF Operation successfully completed
+2023-06-18T13:43:21.958:[INFO]: Moving the file from temporary location /tmp/pdfServicesSdkResult/XlghXdZ5hXeh.zip to zips/requested22.zip.
+Successfully extracted information and saved into extractedData/output22.json
+2023-06-18T13:43:22.062:[INFO]: All validations successfully done. Beginning Extract Pdf operation execution
+2023-06-18T13:43:32.618:[INFO]: Extract PDF Operation successfully completed
+2023-06-18T13:43:33.894:[INFO]: Moving the file from temporary location /tmp/pdfServicesSdkResult/sGdnyMtkfqVT.zip to zips/requested23.zip.
+Successfully extracted information and saved into extractedData/output23.json
+2023-06-18T13:43:33.981:[INFO]: All validations successfully done. Beginning Extract Pdf operation execution
+2023-06-18T13:43:43.792:[INFO]: Extract PDF Operation successfully completed
+2023-06-18T13:43:45.186:[INFO]: Moving the file from temporary location /tmp/pdfServicesSdkResult/z1zg4SMjKiAQ.zip to zips/requested24.zip.
+Successfully extracted information and saved into extractedData/output24.json
+2023-06-18T13:43:45.293:[INFO]: All validations successfully done. Beginning Extract Pdf operation execution
+2023-06-18T13:43:55.853:[INFO]: Extract PDF Operation successfully completed
+2023-06-18T13:43:57.319:[INFO]: Moving the file from temporary location /tmp/pdfServicesSdkResult/A2Av71NPa6W6.zip to zips/requested25.zip.
+Successfully extracted information and saved into extractedData/output25.json
+2023-06-18T13:43:57.443:[INFO]: All validations successfully done. Beginning Extract Pdf operation execution
+2023-06-18T13:44:08.774:[INFO]: Extract PDF Operation successfully completed
+2023-06-18T13:44:10.358:[INFO]: Moving the file from temporary location /tmp/pdfServicesSdkResult/3UMr0GveaYIX.zip to zips/requested26.zip.
+Successfully extracted information and saved into extractedData/output26.json
+2023-06-18T13:44:10.474:[INFO]: All validations successfully done. Beginning Extract Pdf operation execution
+2023-06-18T13:44:21.619:[INFO]: Extract PDF Operation successfully completed
+2023-06-18T13:44:23.079:[INFO]: Moving the file from temporary location /tmp/pdfServicesSdkResult/GIerPFEFPiTQ.zip to zips/requested27.zip.
+Successfully extracted information and saved into extractedData/output27.json
+2023-06-18T13:44:23.201:[INFO]: All validations successfully done. Beginning Extract Pdf operation execution
+2023-06-18T13:44:32.692:[INFO]: Extract PDF Operation successfully completed
+2023-06-18T13:44:34.170:[INFO]: Moving the file from temporary location /tmp/pdfServicesSdkResult/aLPfrK41rLMo.zip to zips/requested28.zip.
+Successfully extracted information and saved into extractedData/output28.json
+2023-06-18T13:44:34.243:[INFO]: All validations successfully done. Beginning Extract Pdf operation execution
+2023-06-18T13:44:45.785:[INFO]: Extract PDF Operation successfully completed
+2023-06-18T13:44:47.350:[INFO]: Moving the file from temporary location /tmp/pdfServicesSdkResult/kBLNWi4AnQqJ.zip to zips/requested29.zip.
+Successfully extracted information and saved into extractedData/output29.json
+2023-06-18T13:44:47.431:[INFO]: All validations successfully done. Beginning Extract Pdf operation execution
+2023-06-18T13:45:00.425:[INFO]: Extract PDF Operation successfully completed
+2023-06-18T13:45:01.906:[INFO]: Moving the file from temporary location /tmp/pdfServicesSdkResult/I2TY9Rq7SR9T.zip to zips/requested30.zip.
+Successfully extracted information and saved into extractedData/output30.json
+2023-06-18T13:45:01.998:[INFO]: All validations successfully done. Beginning Extract Pdf operation execution
+2023-06-18T13:45:11.511:[INFO]: Extract PDF Operation successfully completed
+2023-06-18T13:45:13.079:[INFO]: Moving the file from temporary location /tmp/pdfServicesSdkResult/TORYElB9Xpmo.zip to zips/requested31.zip.
+Successfully extracted information and saved into extractedData/output31.json
+2023-06-18T13:45:13.183:[INFO]: All validations successfully done. Beginning Extract Pdf operation execution
+2023-06-18T13:45:24.432:[INFO]: Extract PDF Operation successfully completed
+2023-06-18T13:45:25.824:[INFO]: Moving the file from temporary location /tmp/pdfServicesSdkResult/dS9BrQXa3jsl.zip to zips/requested32.zip.
+Successfully extracted information and saved into extractedData/output32.json
+2023-06-18T13:45:25.940:[INFO]: All validations successfully done. Beginning Extract Pdf operation execution
+2023-06-18T13:45:37.328:[INFO]: Extract PDF Operation successfully completed
+2023-06-18T13:45:37.957:[INFO]: Moving the file from temporary location /tmp/pdfServicesSdkResult/vk8nN2V8RbBW.zip to zips/requested33.zip.
+Successfully extracted information and saved into extractedData/output33.json
+2023-06-18T13:45:38.033:[INFO]: All validations successfully done. Beginning Extract Pdf operation execution
+2023-06-18T13:45:49.045:[INFO]: Extract PDF Operation successfully completed
+2023-06-18T13:45:49.685:[INFO]: Moving the file from temporary location /tmp/pdfServicesSdkResult/5n0YHD9oloTd.zip to zips/requested34.zip.
+Successfully extracted information and saved into extractedData/output34.json
+2023-06-18T13:45:49.778:[INFO]: All validations successfully done. Beginning Extract Pdf operation execution
+2023-06-18T13:46:00.849:[INFO]: Extract PDF Operation successfully completed
+2023-06-18T13:46:02.220:[INFO]: Moving the file from temporary location /tmp/pdfServicesSdkResult/vIrlDORyn6Zo.zip to zips/requested35.zip.
+Successfully extracted information and saved into extractedData/output35.json
+2023-06-18T13:46:02.303:[INFO]: All validations successfully done. Beginning Extract Pdf operation execution
+2023-06-18T13:46:13.035:[INFO]: Extract PDF Operation successfully completed
+2023-06-18T13:46:14.428:[INFO]: Moving the file from temporary location /tmp/pdfServicesSdkResult/a1gJ1Mnq0pKe.zip to zips/requested36.zip.
+Successfully extracted information and saved into extractedData/output36.json
+2023-06-18T13:46:14.523:[INFO]: All validations successfully done. Beginning Extract Pdf operation execution
+2023-06-18T13:46:25.083:[INFO]: Extract PDF Operation successfully completed
+2023-06-18T13:46:26.558:[INFO]: Moving the file from temporary location /tmp/pdfServicesSdkResult/a970fxQNukmc.zip to zips/requested37.zip.
+Successfully extracted information and saved into extractedData/output37.json
+2023-06-18T13:46:26.625:[INFO]: All validations successfully done. Beginning Extract Pdf operation execution
+2023-06-18T13:46:36.492:[INFO]: Extract PDF Operation successfully completed
+2023-06-18T13:46:37.717:[INFO]: Moving the file from temporary location /tmp/pdfServicesSdkResult/4FDxiPKhUKXX.zip to zips/requested38.zip.
+Successfully extracted information and saved into extractedData/output38.json
+2023-06-18T13:46:37.803:[INFO]: All validations successfully done. Beginning Extract Pdf operation execution
+2023-06-18T13:46:46.229:[INFO]: Extract PDF Operation successfully completed
+2023-06-18T13:46:47.704:[INFO]: Moving the file from temporary location /tmp/pdfServicesSdkResult/o1xi5blBdFuk.zip to zips/requested39.zip.
+Successfully extracted information and saved into extractedData/output39.json
+2023-06-18T13:46:47.790:[INFO]: All validations successfully done. Beginning Extract Pdf operation execution
+2023-06-18T13:46:58.447:[INFO]: Extract PDF Operation successfully completed
+2023-06-18T13:46:59.839:[INFO]: Moving the file from temporary location /tmp/pdfServicesSdkResult/UFlJn0J4bdf9.zip to zips/requested40.zip.
+Successfully extracted information and saved into extractedData/output40.json
+2023-06-18T13:46:59.930:[INFO]: All validations successfully done. Beginning Extract Pdf operation execution
+2023-06-18T13:47:11.188:[INFO]: Extract PDF Operation successfully completed
+2023-06-18T13:47:12.409:[INFO]: Moving the file from temporary location /tmp/pdfServicesSdkResult/qJPKuo4sD7JA.zip to zips/requested41.zip.
+Successfully extracted information and saved into extractedData/output41.json
+2023-06-18T13:47:12.473:[INFO]: All validations successfully done. Beginning Extract Pdf operation execution
+2023-06-18T13:47:21.673:[INFO]: Extract PDF Operation successfully completed
+2023-06-18T13:47:23.075:[INFO]: Moving the file from temporary location /tmp/pdfServicesSdkResult/THqVa1o0pBZz.zip to zips/requested42.zip.
+Successfully extracted information and saved into extractedData/output42.json
+2023-06-18T13:47:23.149:[INFO]: All validations successfully done. Beginning Extract Pdf operation execution
+2023-06-18T13:47:33.376:[INFO]: Extract PDF Operation successfully completed
+2023-06-18T13:47:34.855:[INFO]: Moving the file from temporary location /tmp/pdfServicesSdkResult/JlEppQ5WZ8FM.zip to zips/requested43.zip.
+Successfully extracted information and saved into extractedData/output43.json
+2023-06-18T13:47:34.938:[INFO]: All validations successfully done. Beginning Extract Pdf operation execution
+2023-06-18T13:47:44.518:[INFO]: Extract PDF Operation successfully completed
+2023-06-18T13:47:45.944:[INFO]: Moving the file from temporary location /tmp/pdfServicesSdkResult/ZO7dbFKzRwQq.zip to zips/requested44.zip.
+Successfully extracted information and saved into extractedData/output44.json
+2023-06-18T13:47:46.054:[INFO]: All validations successfully done. Beginning Extract Pdf operation execution
+2023-06-18T13:47:54.655:[INFO]: Extract PDF Operation successfully completed
+2023-06-18T13:47:55.308:[INFO]: Moving the file from temporary location /tmp/pdfServicesSdkResult/7DklHDAnMq3g.zip to zips/requested45.zip.
+Successfully extracted information and saved into extractedData/output45.json
+2023-06-18T13:47:55.395:[INFO]: All validations successfully done. Beginning Extract Pdf operation execution
+2023-06-18T13:48:06.394:[INFO]: Extract PDF Operation successfully completed
+2023-06-18T13:48:07.800:[INFO]: Moving the file from temporary location /tmp/pdfServicesSdkResult/0OOjlB7kQvCh.zip to zips/requested46.zip.
+Successfully extracted information and saved into extractedData/output46.json
+2023-06-18T13:48:07.917:[INFO]: All validations successfully done. Beginning Extract Pdf operation execution
+2023-06-18T13:48:16.112:[INFO]: Extract PDF Operation successfully completed
+2023-06-18T13:48:17.568:[INFO]: Moving the file from temporary location /tmp/pdfServicesSdkResult/s16IzBaFAJut.zip to zips/requested47.zip.
+Successfully extracted information and saved into extractedData/output47.json
+2023-06-18T13:48:17.657:[INFO]: All validations successfully done. Beginning Extract Pdf operation execution
+2023-06-18T13:48:27.541:[INFO]: Extract PDF Operation successfully completed
+2023-06-18T13:48:29.065:[INFO]: Moving the file from temporary location /tmp/pdfServicesSdkResult/y81DcmofPgMr.zip to zips/requested48.zip.
+Successfully extracted information and saved into extractedData/output48.json
+2023-06-18T13:48:29.168:[INFO]: All validations successfully done. Beginning Extract Pdf operation execution
+2023-06-18T13:48:40.719:[INFO]: Extract PDF Operation successfully completed
+2023-06-18T13:48:42.118:[INFO]: Moving the file from temporary location /tmp/pdfServicesSdkResult/87XEgdr23cdV.zip to zips/requested49.zip.
+Successfully extracted information and saved into extractedData/output49.json
+2023-06-18T13:48:42.242:[INFO]: All validations successfully done. Beginning Extract Pdf operation execution
+2023-06-18T13:48:51.114:[INFO]: Extract PDF Operation successfully completed
+2023-06-18T13:48:52.561:[INFO]: Moving the file from temporary location /tmp/pdfServicesSdkResult/e9HZ83ghzPtH.zip to zips/requested50.zip.
+Successfully extracted information and saved into extractedData/output50.json
+2023-06-18T13:48:52.675:[INFO]: All validations successfully done. Beginning Extract Pdf operation execution
+2023-06-18T13:49:00.820:[INFO]: Extract PDF Operation successfully completed
+2023-06-18T13:49:02.213:[INFO]: Moving the file from temporary location /tmp/pdfServicesSdkResult/OrElHCSaInRr.zip to zips/requested51.zip.
+Successfully extracted information and saved into extractedData/output51.json
+2023-06-18T13:49:02.312:[INFO]: All validations successfully done. Beginning Extract Pdf operation execution
+2023-06-18T13:49:13.214:[INFO]: Extract PDF Operation successfully completed
+2023-06-18T13:49:14.561:[INFO]: Moving the file from temporary location /tmp/pdfServicesSdkResult/MyYMLVBKDbT3.zip to zips/requested52.zip.
+Successfully extracted information and saved into extractedData/output52.json
+2023-06-18T13:49:14.674:[INFO]: All validations successfully done. Beginning Extract Pdf operation execution
+2023-06-18T13:49:25.696:[INFO]: Extract PDF Operation successfully completed
+2023-06-18T13:49:27.687:[INFO]: Moving the file from temporary location /tmp/pdfServicesSdkResult/po9JdRW0Zqwq.zip to zips/requested53.zip.
+Successfully extracted information and saved into extractedData/output53.json
+2023-06-18T13:49:27.811:[INFO]: All validations successfully done. Beginning Extract Pdf operation execution
+2023-06-18T13:49:39.163:[INFO]: Extract PDF Operation successfully completed
+2023-06-18T13:49:40.084:[INFO]: Moving the file from temporary location /tmp/pdfServicesSdkResult/QNnwULPNeMQF.zip to zips/requested54.zip.
+Successfully extracted information and saved into extractedData/output54.json
+2023-06-18T13:49:40.197:[INFO]: All validations successfully done. Beginning Extract Pdf operation execution
+2023-06-18T13:49:50.685:[INFO]: Extract PDF Operation successfully completed
+2023-06-18T13:49:52.130:[INFO]: Moving the file from temporary location /tmp/pdfServicesSdkResult/sgER00b7ipTl.zip to zips/requested55.zip.
+Successfully extracted information and saved into extractedData/output55.json
+2023-06-18T13:49:52.234:[INFO]: All validations successfully done. Beginning Extract Pdf operation execution
+2023-06-18T13:50:02.876:[INFO]: Extract PDF Operation successfully completed
+2023-06-18T13:50:04.289:[INFO]: Moving the file from temporary location /tmp/pdfServicesSdkResult/ZjP0xg4kZdMr.zip to zips/requested56.zip.
+Successfully extracted information and saved into extractedData/output56.json
+2023-06-18T13:50:04.395:[INFO]: All validations successfully done. Beginning Extract Pdf operation execution
+2023-06-18T13:50:15.205:[INFO]: Extract PDF Operation successfully completed
+2023-06-18T13:50:16.485:[INFO]: Moving the file from temporary location /tmp/pdfServicesSdkResult/LPFLR2bPaPtc.zip to zips/requested57.zip.
+Successfully extracted information and saved into extractedData/output57.json
+2023-06-18T13:50:16.554:[INFO]: All validations successfully done. Beginning Extract Pdf operation execution
+2023-06-18T13:50:25.751:[INFO]: Extract PDF Operation successfully completed
+2023-06-18T13:50:27.153:[INFO]: Moving the file from temporary location /tmp/pdfServicesSdkResult/WAnBkHIbS44h.zip to zips/requested58.zip.
+Successfully extracted information and saved into extractedData/output58.json
+2023-06-18T13:50:27.238:[INFO]: All validations successfully done. Beginning Extract Pdf operation execution
+2023-06-18T13:50:38.221:[INFO]: Extract PDF Operation successfully completed
+2023-06-18T13:50:39.459:[INFO]: Moving the file from temporary location /tmp/pdfServicesSdkResult/t8iaxCRuiDmg.zip to zips/requested59.zip.
+Successfully extracted information and saved into extractedData/output59.json
+2023-06-18T13:50:39.558:[INFO]: All validations successfully done. Beginning Extract Pdf operation execution
+2023-06-18T13:50:52.076:[INFO]: Extract PDF Operation successfully completed
+2023-06-18T13:50:53.517:[INFO]: Moving the file from temporary location /tmp/pdfServicesSdkResult/rnO0GIEUA6Cr.zip to zips/requested60.zip.
+Successfully extracted information and saved into extractedData/output60.json
+2023-06-18T13:50:53.592:[INFO]: All validations successfully done. Beginning Extract Pdf operation execution
+2023-06-18T13:51:03.783:[INFO]: Extract PDF Operation successfully completed
+2023-06-18T13:51:04.303:[INFO]: Moving the file from temporary location /tmp/pdfServicesSdkResult/qBHudpV34Zij.zip to zips/requested61.zip.
+Successfully extracted information and saved into extractedData/output61.json
+2023-06-18T13:51:04.380:[INFO]: All validations successfully done. Beginning Extract Pdf operation execution
+2023-06-18T13:51:13.577:[INFO]: Extract PDF Operation successfully completed
+2023-06-18T13:51:14.969:[INFO]: Moving the file from temporary location /tmp/pdfServicesSdkResult/QAr7Tmu3pKlV.zip to zips/requested62.zip.
+Successfully extracted information and saved into extractedData/output62.json
+2023-06-18T13:51:15.055:[INFO]: All validations successfully done. Beginning Extract Pdf operation execution
+2023-06-18T13:51:25.615:[INFO]: Extract PDF Operation successfully completed
+2023-06-18T13:51:26.824:[INFO]: Moving the file from temporary location /tmp/pdfServicesSdkResult/Mxl4OebaexDG.zip to zips/requested63.zip.
+Successfully extracted information and saved into extractedData/output63.json
+2023-06-18T13:51:26.909:[INFO]: All validations successfully done. Beginning Extract Pdf operation execution
+2023-06-18T13:51:37.747:[INFO]: Extract PDF Operation successfully completed
+2023-06-18T13:51:39.226:[INFO]: Moving the file from temporary location /tmp/pdfServicesSdkResult/sjmH5WP2Y4HI.zip to zips/requested64.zip.
+Successfully extracted information and saved into extractedData/output64.json
+2023-06-18T13:51:39.319:[INFO]: All validations successfully done. Beginning Extract Pdf operation execution
+2023-06-18T13:51:48.148:[INFO]: Extract PDF Operation successfully completed
+2023-06-18T13:51:48.934:[INFO]: Moving the file from temporary location /tmp/pdfServicesSdkResult/24xNK8nnqzou.zip to zips/requested65.zip.
+Successfully extracted information and saved into extractedData/output65.json
+2023-06-18T13:51:49.022:[INFO]: All validations successfully done. Beginning Extract Pdf operation execution
+2023-06-18T13:52:03.139:[INFO]: Extract PDF Operation successfully completed
+2023-06-18T13:52:04.534:[INFO]: Moving the file from temporary location /tmp/pdfServicesSdkResult/rB6ywdSH45zJ.zip to zips/requested66.zip.
+Successfully extracted information and saved into extractedData/output66.json
+2023-06-18T13:52:04.654:[INFO]: All validations successfully done. Beginning Extract Pdf operation execution
+2023-06-18T13:52:15.360:[INFO]: Extract PDF Operation successfully completed
+2023-06-18T13:52:16.666:[INFO]: Moving the file from temporary location /tmp/pdfServicesSdkResult/tgruWUDvgRzc.zip to zips/requested67.zip.
+Successfully extracted information and saved into extractedData/output67.json
+2023-06-18T13:52:16.774:[INFO]: All validations successfully done. Beginning Extract Pdf operation execution
+2023-06-18T13:52:24.894:[INFO]: Extract PDF Operation successfully completed
+2023-06-18T13:52:26.371:[INFO]: Moving the file from temporary location /tmp/pdfServicesSdkResult/dUIF1vxhUYr3.zip to zips/requested68.zip.
+Successfully extracted information and saved into extractedData/output68.json
+2023-06-18T13:52:26.458:[INFO]: All validations successfully done. Beginning Extract Pdf operation execution
+2023-06-18T13:52:37.112:[INFO]: Extract PDF Operation successfully completed
+2023-06-18T13:52:38.515:[INFO]: Moving the file from temporary location /tmp/pdfServicesSdkResult/rVo7deljHDeG.zip to zips/requested69.zip.
+Successfully extracted information and saved into extractedData/output69.json
+2023-06-18T13:52:38.647:[INFO]: All validations successfully done. Beginning Extract Pdf operation execution
+2023-06-18T13:52:48.904:[INFO]: Extract PDF Operation successfully completed
+2023-06-18T13:52:50.338:[INFO]: Moving the file from temporary location /tmp/pdfServicesSdkResult/Epkc0PnhnZxJ.zip to zips/requested70.zip.
+Successfully extracted information and saved into extractedData/output70.json
+2023-06-18T13:52:50.443:[INFO]: All validations successfully done. Beginning Extract Pdf operation execution
+2023-06-18T13:53:00.684:[INFO]: Extract PDF Operation successfully completed
+2023-06-18T13:53:02.124:[INFO]: Moving the file from temporary location /tmp/pdfServicesSdkResult/KG9L0EdNkY7a.zip to zips/requested71.zip.
+Successfully extracted information and saved into extractedData/output71.json
+2023-06-18T13:53:02.259:[INFO]: All validations successfully done. Beginning Extract Pdf operation execution
+2023-06-18T13:53:13.523:[INFO]: Extract PDF Operation successfully completed
+2023-06-18T13:53:14.790:[INFO]: Moving the file from temporary location /tmp/pdfServicesSdkResult/FRG6D4oV1rqK.zip to zips/requested72.zip.
+Successfully extracted information and saved into extractedData/output72.json
+2023-06-18T13:53:14.907:[INFO]: All validations successfully done. Beginning Extract Pdf operation execution
+2023-06-18T13:53:22.775:[INFO]: Extract PDF Operation successfully completed
+2023-06-18T13:53:24.048:[INFO]: Moving the file from temporary location /tmp/pdfServicesSdkResult/wngo1a03UqEz.zip to zips/requested73.zip.
+Successfully extracted information and saved into extractedData/output73.json
+2023-06-18T13:53:24.138:[INFO]: All validations successfully done. Beginning Extract Pdf operation execution
+2023-06-18T13:53:34.658:[INFO]: Extract PDF Operation successfully completed
+2023-06-18T13:53:35.185:[INFO]: Moving the file from temporary location /tmp/pdfServicesSdkResult/Ceesm3ycD71c.zip to zips/requested74.zip.
+Successfully extracted information and saved into extractedData/output74.json
+2023-06-18T13:53:35.305:[INFO]: All validations successfully done. Beginning Extract Pdf operation execution
+2023-06-18T13:53:46.097:[INFO]: Extract PDF Operation successfully completed
+2023-06-18T13:53:47.449:[INFO]: Moving the file from temporary location /tmp/pdfServicesSdkResult/PMS6bJYrwils.zip to zips/requested75.zip.
+Successfully extracted information and saved into extractedData/output75.json
+2023-06-18T13:53:47.550:[INFO]: All validations successfully done. Beginning Extract Pdf operation execution
+2023-06-18T13:53:59.271:[INFO]: Extract PDF Operation successfully completed
+2023-06-18T13:54:00.663:[INFO]: Moving the file from temporary location /tmp/pdfServicesSdkResult/rPctbHJ66Mlb.zip to zips/requested76.zip.
+Successfully extracted information and saved into extractedData/output76.json
+2023-06-18T13:54:00.762:[INFO]: All validations successfully done. Beginning Extract Pdf operation execution
+2023-06-18T13:54:11.669:[INFO]: Extract PDF Operation successfully completed
+2023-06-18T13:54:13.138:[INFO]: Moving the file from temporary location /tmp/pdfServicesSdkResult/FIaTCsMo67Zm.zip to zips/requested77.zip.
+Successfully extracted information and saved into extractedData/output77.json
+2023-06-18T13:54:13.240:[INFO]: All validations successfully done. Beginning Extract Pdf operation execution
+2023-06-18T13:54:24.136:[INFO]: Extract PDF Operation successfully completed
+2023-06-18T13:54:25.747:[INFO]: Moving the file from temporary location /tmp/pdfServicesSdkResult/FjyYXBfOOIZG.zip to zips/requested78.zip.
+Successfully extracted information and saved into extractedData/output78.json
+2023-06-18T13:54:25.860:[INFO]: All validations successfully done. Beginning Extract Pdf operation execution
+2023-06-18T13:54:37.350:[INFO]: Extract PDF Operation successfully completed
+2023-06-18T13:54:38.867:[INFO]: Moving the file from temporary location /tmp/pdfServicesSdkResult/KnYPPNnNZcWy.zip to zips/requested79.zip.
+Successfully extracted information and saved into extractedData/output79.json
+2023-06-18T13:54:38.965:[INFO]: All validations successfully done. Beginning Extract Pdf operation execution
+2023-06-18T13:54:48.966:[INFO]: Extract PDF Operation successfully completed
+Exception encountered while executing operation ServiceApiError: The provided token has expired.
+    at /mnt/c/Users/jagad/Desktop/Submission/AdobePDFExtract-Invoices/node_modules/@adobe/pdfservices-node-sdk/src/internal/http/http-client.js:152:10
+    at Parser.<anonymous> (/mnt/c/Users/jagad/Desktop/Submission/AdobePDFExtract-Invoices/node_modules/xml2js/lib/parser.js:308:18)        
+    at Parser.emit (node:events:513:28)
+    at SAXParser.onclosetag (/mnt/c/Users/jagad/Desktop/Submission/AdobePDFExtract-Invoices/node_modules/xml2js/lib/parser.js:266:26)      
+    at emit (/mnt/c/Users/jagad/Desktop/Submission/AdobePDFExtract-Invoices/node_modules/sax/lib/sax.js:624:35)
+    at emitNode (/mnt/c/Users/jagad/Desktop/Submission/AdobePDFExtract-Invoices/node_modules/sax/lib/sax.js:629:5)
+    at closeTag (/mnt/c/Users/jagad/Desktop/Submission/AdobePDFExtract-Invoices/node_modules/sax/lib/sax.js:889:7)
+    at SAXParser.write (/mnt/c/Users/jagad/Desktop/Submission/AdobePDFExtract-Invoices/node_modules/sax/lib/sax.js:1436:13)
+    at exports.Parser.Parser.parseString (/mnt/c/Users/jagad/Desktop/Submission/AdobePDFExtract-Invoices/node_modules/xml2js/lib/parser.js:327:31)
+    at Parser.parseString (/mnt/c/Users/jagad/Desktop/Submission/AdobePDFExtract-Invoices/node_modules/xml2js/lib/parser.js:5:59) {        
+  requestTrackingId: 'N5QYEQSPR7TQ7HRA',
+  statusCode: 400,
+  errorCode: [ 'ExpiredToken' ]
+}
+Error processing file: ServiceApiError: The provided token has expired.
+    at /mnt/c/Users/jagad/Desktop/Submission/AdobePDFExtract-Invoices/node_modules/@adobe/pdfservices-node-sdk/src/internal/http/http-client.js:152:10
+    at Parser.<anonymous> (/mnt/c/Users/jagad/Desktop/Submission/AdobePDFExtract-Invoices/node_modules/xml2js/lib/parser.js:308:18)        
+    at Parser.emit (node:events:513:28)
+    at SAXParser.onclosetag (/mnt/c/Users/jagad/Desktop/Submission/AdobePDFExtract-Invoices/node_modules/xml2js/lib/parser.js:266:26)      
+    at emit (/mnt/c/Users/jagad/Desktop/Submission/AdobePDFExtract-Invoices/node_modules/sax/lib/sax.js:624:35)
+    at emitNode (/mnt/c/Users/jagad/Desktop/Submission/AdobePDFExtract-Invoices/node_modules/sax/lib/sax.js:629:5)
+    at closeTag (/mnt/c/Users/jagad/Desktop/Submission/AdobePDFExtract-Invoices/node_modules/sax/lib/sax.js:889:7)
+    at SAXParser.write (/mnt/c/Users/jagad/Desktop/Submission/AdobePDFExtract-Invoices/node_modules/sax/lib/sax.js:1436:13)
+    at exports.Parser.Parser.parseString (/mnt/c/Users/jagad/Desktop/Submission/AdobePDFExtract-Invoices/node_modules/xml2js/lib/parser.js:327:31)
+    at Parser.parseString (/mnt/c/Users/jagad/Desktop/Submission/AdobePDFExtract-Invoices/node_modules/xml2js/lib/parser.js:5:59) {        
+  requestTrackingId: 'N5QYEQSPR7TQ7HRA',
+  statusCode: 400,
+  errorCode: [ 'ExpiredToken' ]
+}
+2023-06-18T13:54:50.630:[INFO]: All validations successfully done. Beginning Extract Pdf operation execution
+2023-06-18T13:55:01.419:[INFO]: Extract PDF Operation successfully completed
+2023-06-18T13:55:02.640:[INFO]: Moving the file from temporary location /tmp/pdfServicesSdkResult/ri21dnWOxV4R.zip to zips/requested81.zip.
+Successfully extracted information and saved into extractedData/output81.json
+2023-06-18T13:55:02.745:[INFO]: All validations successfully done. Beginning Extract Pdf operation execution
+2023-06-18T13:55:13.333:[INFO]: Extract PDF Operation successfully completed
+2023-06-18T13:55:14.726:[INFO]: Moving the file from temporary location /tmp/pdfServicesSdkResult/nJdBqLWH1kGz.zip to zips/requested82.zip.
+Successfully extracted information and saved into extractedData/output82.json
+2023-06-18T13:55:14.836:[INFO]: All validations successfully done. Beginning Extract Pdf operation execution
+2023-06-18T13:55:25.727:[INFO]: Extract PDF Operation successfully completed
+2023-06-18T13:55:27.302:[INFO]: Moving the file from temporary location /tmp/pdfServicesSdkResult/rKoNrwk0lXTe.zip to zips/requested83.zip.
+Successfully extracted information and saved into extractedData/output83.json
+2023-06-18T13:55:27.414:[INFO]: All validations successfully done. Beginning Extract Pdf operation execution
+2023-06-18T13:55:37.599:[INFO]: Extract PDF Operation successfully completed
+2023-06-18T13:55:38.895:[INFO]: Moving the file from temporary location /tmp/pdfServicesSdkResult/0UNJF0huC1we.zip to zips/requested84.zip.
+Successfully extracted information and saved into extractedData/output84.json
+2023-06-18T13:55:38.976:[INFO]: All validations successfully done. Beginning Extract Pdf operation execution
+2023-06-18T13:55:47.667:[INFO]: Extract PDF Operation successfully completed
+2023-06-18T13:55:49.064:[INFO]: Moving the file from temporary location /tmp/pdfServicesSdkResult/aCKqhwjmK9Gr.zip to zips/requested85.zip.
+Successfully extracted information and saved into extractedData/output85.json
+2023-06-18T13:55:49.141:[INFO]: All validations successfully done. Beginning Extract Pdf operation execution
+2023-06-18T13:55:59.702:[INFO]: Extract PDF Operation successfully completed
+2023-06-18T13:56:01.180:[INFO]: Moving the file from temporary location /tmp/pdfServicesSdkResult/psNGyx8dt6if.zip to zips/requested86.zip.
+Successfully extracted information and saved into extractedData/output86.json
+2023-06-18T13:56:01.289:[INFO]: All validations successfully done. Beginning Extract Pdf operation execution
+2023-06-18T13:56:09.753:[INFO]: Extract PDF Operation successfully completed
+2023-06-18T13:56:11.318:[INFO]: Moving the file from temporary location /tmp/pdfServicesSdkResult/9yoXPLx5ep3G.zip to zips/requested87.zip.
+Successfully extracted information and saved into extractedData/output87.json
+2023-06-18T13:56:11.405:[INFO]: All validations successfully done. Beginning Extract Pdf operation execution
+2023-06-18T13:56:21.523:[INFO]: Extract PDF Operation successfully completed
+2023-06-18T13:56:23.088:[INFO]: Moving the file from temporary location /tmp/pdfServicesSdkResult/5FgnybTwQch8.zip to zips/requested88.zip.
+Successfully extracted information and saved into extractedData/output88.json
+2023-06-18T13:56:23.196:[INFO]: All validations successfully done. Beginning Extract Pdf operation execution
+2023-06-18T13:56:33.673:[INFO]: Extract PDF Operation successfully completed
+2023-06-18T13:56:35.234:[INFO]: Moving the file from temporary location /tmp/pdfServicesSdkResult/96pbnv9BLAZf.zip to zips/requested89.zip.
+Successfully extracted information and saved into extractedData/output89.json
+2023-06-18T13:56:35.302:[INFO]: All validations successfully done. Beginning Extract Pdf operation execution
+2023-06-18T13:56:46.153:[INFO]: Extract PDF Operation successfully completed
+2023-06-18T13:56:47.709:[INFO]: Moving the file from temporary location /tmp/pdfServicesSdkResult/EXYnOH8qsVOr.zip to zips/requested90.zip.
+Successfully extracted information and saved into extractedData/output90.json
+2023-06-18T13:56:47.791:[INFO]: All validations successfully done. Beginning Extract Pdf operation execution
+2023-06-18T13:56:57.948:[INFO]: Extract PDF Operation successfully completed
+2023-06-18T13:56:59.420:[INFO]: Moving the file from temporary location /tmp/pdfServicesSdkResult/2svU5LR8KwrZ.zip to zips/requested91.zip.
+Successfully extracted information and saved into extractedData/output91.json
+2023-06-18T13:56:59.530:[INFO]: All validations successfully done. Beginning Extract Pdf operation execution
+2023-06-18T13:57:10.851:[INFO]: Extract PDF Operation successfully completed
+2023-06-18T13:57:12.233:[INFO]: Moving the file from temporary location /tmp/pdfServicesSdkResult/4iNYrhfliwQp.zip to zips/requested92.zip.
+Successfully extracted information and saved into extractedData/output92.json
+2023-06-18T13:57:12.302:[INFO]: All validations successfully done. Beginning Extract Pdf operation execution
+2023-06-18T13:57:22.292:[INFO]: Extract PDF Operation successfully completed
+2023-06-18T13:57:23.751:[INFO]: Moving the file from temporary location /tmp/pdfServicesSdkResult/VWbKKeZRhb8D.zip to zips/requested93.zip.
+Successfully extracted information and saved into extractedData/output93.json
+2023-06-18T13:57:23.851:[INFO]: All validations successfully done. Beginning Extract Pdf operation execution
+2023-06-18T13:57:33.992:[INFO]: Extract PDF Operation successfully completed
+2023-06-18T13:57:35.428:[INFO]: Moving the file from temporary location /tmp/pdfServicesSdkResult/KMbFXpmZ5qej.zip to zips/requested94.zip.
+Successfully extracted information and saved into extractedData/output94.json
+2023-06-18T13:57:35.539:[INFO]: All validations successfully done. Beginning Extract Pdf operation execution
+2023-06-18T13:57:45.865:[INFO]: Extract PDF Operation successfully completed
+2023-06-18T13:57:47.256:[INFO]: Moving the file from temporary location /tmp/pdfServicesSdkResult/oIuwUM6gme4w.zip to zips/requested95.zip.
+Successfully extracted information and saved into extractedData/output95.json
+2023-06-18T13:57:47.345:[INFO]: All validations successfully done. Beginning Extract Pdf operation execution
+2023-06-18T13:57:57.306:[INFO]: Extract PDF Operation successfully completed
+2023-06-18T13:57:58.619:[INFO]: Moving the file from temporary location /tmp/pdfServicesSdkResult/35lD9L5E1jwL.zip to zips/requested96.zip.
+Successfully extracted information and saved into extractedData/output96.json
+2023-06-18T13:57:58.732:[INFO]: All validations successfully done. Beginning Extract Pdf operation execution
+2023-06-18T13:58:09.350:[INFO]: Extract PDF Operation successfully completed
+2023-06-18T13:58:10.899:[INFO]: Moving the file from temporary location /tmp/pdfServicesSdkResult/eFb0nnPf46bc.zip to zips/requested97.zip.
+Successfully extracted information and saved into extractedData/output97.json
+2023-06-18T13:58:10.988:[INFO]: All validations successfully done. Beginning Extract Pdf operation execution
+2023-06-18T13:58:21.919:[INFO]: Extract PDF Operation successfully completed
+2023-06-18T13:58:23.358:[INFO]: Moving the file from temporary location /tmp/pdfServicesSdkResult/WjFU1V0Fxzvt.zip to zips/requested98.zip.
+Successfully extracted information and saved into extractedData/output98.json
+2023-06-18T13:58:23.432:[INFO]: All validations successfully done. Beginning Extract Pdf operation execution
+2023-06-18T13:58:34.659:[INFO]: Extract PDF Operation successfully completed
+2023-06-18T13:58:36.138:[INFO]: Moving the file from temporary location /tmp/pdfServicesSdkResult/7tkWuYknkodO.zip to zips/requested99.zip.
+Successfully extracted information and saved into extractedData/output99.json
